@@ -1,0 +1,294 @@
+@charset "utf-8";
+.cp {
+    a{
+        //text-decoration: underline;
+    }
+    p{
+        margin-bottom: 20px;
+    }
+    .cp_pic, .cp_picph{
+        width:40%;
+        float: left;
+        display:block;
+        background:#F2F2F2;
+        padding: 10px;
+        margin:0px 15px 15px 0px;
+        img{
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        span{
+            display:block;
+            line-height:1.75em;
+            font-size:1.063em;
+        }
+        a{
+            color:$_primaryColor;
+        }
+    }
+    .cp_picph{
+        width:100%;
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    img{
+        width: auto;
+        max-width: 910px;
+        display: block;
+        margin: auto;
+        &.cpbanner{
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+    .date{
+        display:block;
+        clear:both;
+        margin:5px 0 10px;
+        font-size:.938em;
+        color:#555;
+        span{
+            display:inline-block;
+            margin-right: 15px;
+        }
+    }
+    table{
+        margin:15px 0px;
+    }
+    table {
+        margin:15px auto;
+    }
+    table th{
+        text-align: left !important;
+        background:#F4F4F4 !important;
+    }
+    table td a[href^='https:'],
+    table td a[href^='http:']{
+        word-break: break-all;
+    }
+    ul{
+        list-style-type: disc;
+        padding:0 0 0 1.5em;
+        margin: .4em 0;
+        overflow:hidden;
+        li{
+            margin: .4em 0;
+            ul{
+                list-style-type: square;
+                ul{
+                    list-style-type: circle;
+                }
+            }
+        }
+    }
+    ol{
+        list-style-type: decimal;
+        padding:0 0 0 1.8em;
+        margin: .4em 0;
+        overflow:hidden;
+        li{
+            margin: .4em 0;
+            ol{
+                list-style-type: lower-alpha;
+                ol{
+                    list-style-type: initial;
+                    padding-left:1.4em;
+                }
+            }
+        }
+    }
+    .category{
+        ul{
+            padding: 0;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .cp {
+        width: 100%;
+        margin:0px auto;
+        .cp_pic, .cp_picph{
+            width:80%;
+            float: none;
+            display:block;
+            margin:15px auto;
+            text-align: center;
+            padding: 0;
+            padding-bottom: 10px;
+            background:none;
+            img{
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            span{
+                width: 90%;
+                margin:0px auto;
+            }
+        }
+        img{
+            width: 100%;
+            margin:10px auto;
+            // max-width: 900px;
+        }      
+    }
+}
+/*link_list 相關連結*/
+.link_list,.download_list {
+    font-size: 16px;
+    padding: 10px 0px;
+    clear: both;
+    span{
+        margin:0px 5px;
+    }
+    h3 span {
+        margin-right: 10px;
+        color: #921b88;
+    }
+    ul {
+        list-style: none;
+        margin: 0 0 10px;
+        padding: 0;
+        li {
+            img {
+                display: inline;
+                margin: 0px 7px 0px 7px;
+                max-width:20px;
+            }
+            a {
+                background: url(../images/icon_arrow.gif) no-repeat 15px 14px; 
+                border-bottom: 1px dotted #CCC;
+                padding: 5px 0px 5px 35px;
+                width: 100%;
+                display: block;
+                color: $_primaryColor !important;
+                font-size: .938em;
+                &:hover,&:focus {
+                    color:$_aHover!important;
+                }
+            }
+        }
+
+    }
+}
+.link_list,.download_list{
+    h3 {
+        color: #333;
+        font-size: 1.25em;
+        font-weight: 800;
+        padding: 12px 0px 15px 0px;
+        margin: 0.5em 0px 0.2em;
+        background-size:40px;
+        line-height: 150%;
+        border-bottom: 1px solid #ccc;
+        i{
+            margin-right: 10px;
+            background:$_secondaryColor;
+            width:30px;
+            height: 30px;
+            border-radius:50%;
+            padding: 3px;
+        }
+    }
+}
+.iframe-rwd {
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin: 20px;
+    @media (max-width: 767px){
+        margin: 15px 0;
+    }
+    iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;    
+    }
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    margin: 15px 0;
+    iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;  
+    }
+}
+//指南guide
+.guide{
+    text-align: center;
+    img{
+        @media (max-width: 767px) {
+            width: 60%;
+        }
+    }
+    h2{
+        font-size: 1.5em;
+        color: $_primaryColor;
+        text-align: left;
+        margin: 10px 0 20px;
+        padding: 3px 10px;
+        border-radius: 3px;
+        background-color: #eee;
+    }
+    h3{
+        font-size: 1.25em;
+    }
+    h4{
+        font-size: 1.125em;
+        text-align: left;
+    }
+    ol, ul{
+        text-align: left;
+    }
+    .android, .iphone {
+        border: 1px solid #eee;
+        padding: 15px 30px;
+        @media (min-width: 1200px){/*--桌機--*/
+            min-height: 1270px;
+        }
+        @media (max-width: 800px){
+            min-height: 1200px;
+        }
+        @media (max-width: 767px){
+            min-height: auto;
+        }
+    }
+    .qrcode{
+        margin-top: 15px;
+        h4{
+            text-align: center;
+            margin: 50px 0 0;
+        }
+        img{
+            @media (max-width: 800px){
+                width: 50%;
+            }
+        }
+    }
+    .imgQrcode{
+        @media (min-width: 1200px){/*--桌機--*/
+            width: 40%;
+        }
+    }
+}
+@media print {
+    .cp {
+        img{
+            width: auto; 
+            display: inline !important;
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@charset "utf-8";
+.breadcrumb{
+	padding:4px 10px;
+	margin: 0;
+	font-size:.938em;
+	background:#f4f4f4;
+	a{
+		color: $_aColor;
+		&:hover {
+			color: $_aHover;
+		}
+	}
+	i{
+		opacity:.5;
+		margin-right: 5px;
+	}
+	>.active{
+		color: $_primaryColor;
+	}
+}
+

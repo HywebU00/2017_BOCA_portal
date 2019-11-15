@@ -1,0 +1,537 @@
+@charset "utf-8";
+#Header{
+	width: 100%;
+	margin: 0px auto;
+	height: 170px;
+	box-shadow:0px 0px 4px RGBA(0,0,0,.7);
+	position: relative;
+	z-index:999;
+	// 上方導覽列的色塊
+	&:before{
+		@extend %h_gradient;
+		content:"";
+		top:0px;
+		left:0px;
+		width: 100%;
+		height:35px;
+		position:absolute;
+	}
+	// menu上面的線
+	&:after{
+		background:#aeaeae;
+		content:"";
+		top:125px;
+		left:0px;
+		width: 100%;
+		height:1px;
+		position:absolute;
+		@media (max-width: 767px) {
+			display:none;
+		}
+	}
+	.accesskey{
+		z-index: 999;
+		color: #138bb9;
+		a{
+			color: #138bb9;
+		}
+	}
+	.container{
+		max-width:1200px;
+		height:90px;
+		position:relative;
+	}
+}
+@media (max-width:991px) {
+	#Header{
+		width: 100%;
+		height: auto;
+		background:none;
+		.navbar-collapse{
+			padding:0;
+			margin-top: 0px;
+		}
+		.container{
+			width: 100%;
+			height:auto;
+			position:relative;
+		}
+	}
+}
+@media (max-width: 767px) {
+	#Header {
+		#offcanvas-right{
+			background:#333;
+		}
+		#offcanvas-left{
+			background:$_aColor;
+		}
+		&::after{
+			display:none;
+		}
+		&::before{
+			display:none;
+		}
+	}
+}
+
+/* 按鈕樣式 */
+.navbar-toggle{
+	border: 1px solid #CCC;
+	margin: 10px 10px 10px;
+	padding: 3px 6px;
+}
+/* Logo */
+.Logo {
+	position:relative;
+	// outline:1px solid red;
+	width: 100%;
+	height: 100%;
+	margin-top: 35px;
+	display:block;
+	img{
+		margin-top: 0px;
+		height:85px;
+	}
+}
+@media (max-width: 991px) {
+	.Logo{
+		width:45%;
+		float: left;
+		margin-top: 45px;
+		margin-bottom: 0px;
+		img{
+			margin-top: 0px;
+			width: 100%;
+			height:auto;
+			//max-height:auto;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.Logo{
+		width:50%;
+		float: left;
+		margin-top: 0;
+		margin-bottom: 0;
+		img{
+			//margin-top: 0px;
+			//width: 100%;
+			//height:auto;
+			//max-height:auto;
+		}
+	}
+}
+@media (max-width: 414px) {
+	.Logo{
+		width:60%;
+		float: left;
+		margin-bottom: 0;
+		img{
+			margin-top: 1px;
+			//width: 100%;
+			//height:auto;
+			//max-height:auto;
+		}
+	}
+}
+@media (max-width: 375px) {
+	.Logo{
+		width:60%;
+		float: left;
+		margin-bottom: 0;
+		img{
+			margin-top: 3px;
+			//width: 100%;
+			//height:auto;
+			//max-height:auto;
+		}
+	}
+}
+@media (max-width: 320px) {
+	.Logo{
+		width:63%;
+		float: left;
+		margin-bottom: 0;
+		img{
+			margin-top: 6px;
+			//width: 100%;
+			//height:auto;
+			//max-height:auto;
+		}
+	}
+}
+#Header .navbar{
+	border:none !important;
+
+}
+#Header .Header_Links{
+	float:right;
+}
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////  Header_Links  ///////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+#Header .Header_Links{
+	color:#666;
+	position: relative;
+	margin-top: 10px;
+	.navbar-nav{
+	}
+	ul{
+		float:right;
+		li{
+			display:inline-block;
+			a{
+				display:block;
+				padding:5px 15px;
+				border-radius:5px;
+				&:hover{
+					color:#FF0;
+				}
+			}
+		}
+	}
+
+
+}
+@media (max-width: 767px) {
+	#Header .Header_Links {
+		overflow: hidden;
+		width: 100%;
+		padding:0px;
+		margin:0px;
+		.navbar-nav{
+			display:block;
+			width: 100%;
+			height:auto;
+
+		}
+		ul{
+			float:none;
+			margin-left: 0px;
+			li{
+				padding:0px;
+				display:block;
+				a{
+					display: inline-block;
+					line-height:normal;
+					padding:10px 15px;
+					font-size: 15px;
+					margin:0px 2.5%;
+					width: 45%;
+					float:left;
+					border-radius:5px;
+					color:#464646;
+					text-shadow:none;
+					text-align: center;
+					background:#DDD;
+					&:hover,&:focus{
+						background:rgb(22, 159, 230);
+						color:#FFF;
+					}
+				}
+			}
+		}
+
+	}
+}
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////  FB  /////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+.FB_share{
+	position: absolute;
+	top: 35px;
+	right:15px;
+	z-index: 1;
+}
+#Header .FB_Link .FB_BTN{
+	background:#3c5a9c;
+	display:inline-block;
+	padding:6px 15px 6px 5px;
+}
+#Header .FB_Link .FB_BTN a{
+	color:#fff;
+	font-size: 15px;
+}
+#Header .FB_Link .FB_BTN a:hover,
+#Header .FB_Link .FB_BTN a:focus{
+	text-decoration:none;
+}
+/*////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////  Search  /////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+#Header .Search{
+	width:360px;
+	top: 33px;
+	right: 0px;
+	position: absolute;
+}
+#Header .Search .btn{
+	background:#fff;
+	padding:0;
+	position: relative;
+	left: -28px;
+	z-index: 3;
+	margin-right: 5px;
+}
+
+#Header .Search .btn-search{
+	padding:6px 10px;
+	background:$_secondaryColor;
+	border-radius:4px;
+	left:0px;
+	color:#FFF;
+	left:-20px;
+	transition:.3s ease-out;
+	&:hover,&:focus{
+		background: darken($_secondaryColor,10);
+	}
+}
+#Header .Search .input-group{ 
+	width: 100%; 
+}
+#Header .Search .input-group .form-control:first-child{ 
+	border-radius:4px;
+}
+#Header .Search i{
+	font-size:18px;
+	color:#e7341b;
+}
+
+@media (max-width: 767px) {
+    /*Search*/
+    #Header .Search{
+    	clear:both;
+    	width:95%;
+    	top:0px;
+    	left: 0px;
+    	margin:5px auto;
+    	position: relative;
+    	display: block;
+    	.navbar-form {
+    		margin:0px auto;
+    		border:none !important;
+    		outline:none;
+    		box-shadow:none;
+    	}
+
+    }
+    #Header .Search .btn{
+    	background:#fff;
+    	padding:0;
+    	position: relative;
+    	left: -28px;
+    	z-index: 3;
+    }
+    #Header .Search .btn-search{
+    	padding:6px 10px;
+    	left:-20px;
+    	background:$_aHover;
+    	border-radius:4px;
+    	left:0px;
+    }
+}
+/*關鍵字*/
+
+#Header .Search .HotKeywords, #Header .Search .PromptKeywords{
+	margin-top:8px;
+	font-size:.813em;
+	line-height:1.2em;
+	color:#AAA;
+	a{
+		color:#666;
+		&:hover,&:focus{
+			color:$_secondaryColor;
+		}
+		&:after{ content:'、';}
+		&:last-child:after{ content:'';}
+	}
+}
+@media (max-width: 767px) {
+	#Header .Search .HotKeywords, #Header .Search .PromptKeywords{
+		color:#ddd;
+		a{
+			color:#FFF;
+			&:hover,&:focus{
+				color:lighten($_aHover,20);
+			}
+			&:after{ content:'、';}
+			&:last-child:after{ content:'';}
+		}
+	}
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////  fontSetting  ////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+#Header .container .fontSetting{
+	width:80px;
+	top: 0px;
+	right: 0px;
+	padding:0px;
+	position: absolute;
+	ul {
+		padding:0px;
+		li{
+			display:inline-block;
+			margin:0px 1px;
+			a{
+				display:block;
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	#Header .container .fontSetting{
+		display:none;
+	}
+}
+/*////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////  nav-bar導覽列  ///////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+.Navigation{
+	// float:right;
+	top:2px;
+	position:absolute;
+	text-align: left;
+	left:0px;
+
+	.navbar-nav{
+		li{
+			a{
+				font-size:.875em;
+				padding:5px 15px;
+				position: relative;
+				color:#FFF;
+				text-shadow:none;
+				&:hover,&:focus{
+					background:rgba(0,0,0,.2);
+					border-radius:3px;
+					color:#FFF;
+				}
+				// &::before{
+				// 	content:"";
+				// 	position:absolute;
+				// 	width: 1px;
+				// 	height:14px;
+				// 	top:8px;
+				// 	right:0px;
+				// 	background:#222;
+				// }
+			}
+			&:last-child{
+				&::before{
+					display:none;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.Navigation{
+		float:none;
+		position:relative;
+		top:0px;
+		left:0px;
+		min-width:auto;
+		margin:0px auto;
+		width: 100%;
+		.navbar-nav{
+			border-top: 1px solid #222;
+			border-left: 1px solid #222;
+			overflow:hidden;
+			li{
+				width: 50%;
+				display:block;
+				float:left;
+				a{
+					color:#FFF;
+					box-sizing:border-box;
+					padding: 10px 15% !important;
+					display:block;
+					font-size:15px !important;
+					border-right: 1px solid #222;
+					border-bottom: 1px solid #222;
+					&:hover,&:focus{
+						color:lighten($_aHover,20);
+					}
+					&::before{
+						display:none;
+					}
+				}
+			}
+		}
+		
+	}
+}
+.link{
+	padding:25px 0 !important;
+	position:relative;
+	text-align: center;
+	width: 100%;
+	max-width:1000px;
+	margin: 0px auto;
+	&::before{
+		width:1px;
+		height:40px;
+		background:#DDD;
+		position: absolute;
+		top:20px;
+		left:50%;
+		content:"";
+	}
+	a{
+		font-size:1.25em;
+		display:block;
+		&:hover,&:focus{
+			color:$_aHover;
+		}
+	}
+	img{
+		display:inline-block;
+		vertical-align:middle;
+		margin:0px 5px;
+	}
+}
+@media (max-width: 767px) {
+	.link{
+		&::before{
+			display:none;
+		}
+		a{
+			background:$_aColor;
+			border-radius:5px;
+			margin-bottom: 20px;
+			display:block;
+			width: 80%;
+			padding:10px;
+			color:#FFF;
+			margin: 0px auto 20px;
+			&:hover,&:focus{
+				color:#FFF;
+				background:$_aHover;
+			}
+		}
+		img{
+			display:none;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+

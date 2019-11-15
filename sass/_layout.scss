@@ -1,0 +1,61 @@
+@charset "utf-8";
+@import "compass";
+//變數
+$_primaryColor:#128bba;				   	//主色
+$_secondaryColor:#80be22;			   	//輔色
+$_aColor:darken($_primaryColor,15);		   //連結顏色
+$_aHover:darken($_secondaryColor,15);	   //移入顏色
+$_activeColor:#ee7700;
+$_dateColor:#fabe00;                     //日期顏色
+
+%h_gradient {
+	// Needs latest Compass, add '@import "compass"' to your scss
+	// Permalink - use to edit and share this gradient:
+	// http://colorzilla.com/gradient-editor/#128bba+53,80be22+100
+	background-color: rgb(18,139,186); // Old browsers
+	@include filter-gradient(#128bba, #80be22, horizontal); // IE6-9
+	@include background-image(linear-gradient(left,  rgba(18,139,186,1) 53%,rgba(128,190,34,1) 100%));
+}
+%v_gradient{
+	// Needs latest Compass, add '@import "compass"' to your scss
+	// Permalink - use to edit and share this gradient:
+	// http://colorzilla.com/gradient-editor/#128bba+61,128bba+61,49ad1f+100
+	background-color: rgb(18,139,186); // Old browsers
+	@include filter-gradient(#128bba, #49ad1f, vertical); // IE6-9
+	@include background-image(linear-gradient(top,  rgba(18,139,186,1) 61%,rgba(18,139,186,1) 61%,rgba(73,173,31,1) 100%));
+}
+
+// 基本版型
+body{
+	&.noscroll{
+		overflow: hidden;
+	}
+}
+strong{
+	color: $_activeColor;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.container{
+	// width: 100%;
+	max-width:1070px;
+	// background:#FFF;
+}
+.Block_incontent{
+	min-height: 500px;
+}
+@media (max-width: 991px) {
+	.container{
+		width: 100%;
+		border:none;
+	}
+}
+
+
+		@media print {/*--列印--*/
+			#Header { height:auto !important;}
+			.friendly { display:none; padding-top: 0 !important; }
+			#FatFooter, #footer, .quickLink, a.scrollup, .slick-prev, .slick-next,.cp .Single_slider span {display:none;}
+
+		}

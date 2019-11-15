@@ -1,0 +1,34 @@
+@charset "utf-8";
+.np p {
+    padding:0px;
+    
+}
+
+/*lplist*/
+ul{
+    &.nplist{
+        list-style: none; 
+        margin: 10px 0; 
+        background-color: #fafafa; 
+        padding: 10px; 
+        li{
+            display: block; 
+            margin: 0; 
+            padding: 0;
+            a{
+                display: block;
+                color:$_primaryColor;
+                background: url(../images/icon_arrow.gif) no-repeat 10px 15px; 
+                border-bottom: 1px dotted #D2D2D2;
+                padding: 6px 0 6px 22px;
+                &:hover {
+                    color: $_aHover;
+                    text-decoration: none;
+                    background: #ececec url(../images/icon_arrow.gif) no-repeat 12px 15px;
+                }
+            }
+        }
+    }
+}
+
+

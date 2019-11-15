@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+@mixin fontSetting($FONT-SIZE:16px,$LINE-HEIGHT:1.75em,$WEIGHT:normal){
+	font-size:$FONT-SIZE;
+	line-height:$LINE-HEIGHT;
+	font-weight: $WEIGHT;
+}
+@mixin aSetting($COLOR:#128bba,$NOLINE:none){
+	color:$COLOR;
+	text-decoration: $NOLINE;
+	
+}
+body{
+	@include fontSetting(1em);
+	color:#333;
+	font-size:16px;
+	font-family: Lato, "PingFang TC", "Helvetica Neue", Helvetica, 微軟正黑體, 新細明體, Arial, sans-serif;
+	// font-family:"Graphik-Extralight", "PingFangTC-Thin", "Noto Sans TC Thin";
+}
+a{
+	@include aSetting();
+	&:hover{
+		@include aSetting($_aHover);
+	}
+	&:hover,&:focus{
+		text-decoration: none;
+	}
+}
+::selection{
+	background:#ff005a;
+	color:#FFF;
+}
+
+h1{
+	@include fontSetting(1.5em,1.75em,bold);
+	margin-top: 0px;
+}
+h2{
+	@include fontSetting(1.25em,1.75em,bold);
+	margin-top: 0px;
+}
+h3{
+	@include fontSetting(1em,1.75em,bold);
+	margin-top: 0px;
+}
+h4{
+	@include fontSetting(.938em,1.75em,bold);
+	margin-top: 0px;
+}
+h5{
+	@include fontSetting(.813em,1.75em,bold);
+	margin-top: 0px;
+}
+h6{
+	@include fontSetting(.813em,1.75em,bold);
+	margin-top: 0px;
+}
+p{
+	@include fontSetting(1em,1.75em,normal);
+}
+li{
+	@include fontSetting(1em,1.75em,normal);
+}
+@media (max-width: 767px) {
+	h1{
+		@include fontSetting(1.5em,1.75em,bold);
+		margin-top: 0px;
+	}
+	h2{
+		@include fontSetting(1.25em,1.75em,bold);
+		margin-top: 0px;
+	}
+	h3{
+		@include fontSetting(1em,1.75em,bold);
+		margin-top: 0px;
+	}
+	h4{
+		@include fontSetting(.938em,1.75em,bold);
+		margin-top: 0px;
+	}
+	h5{
+		@include fontSetting(.875em,1.75em,bold);
+		margin-top: 0px;
+	}
+	h6{
+		@include fontSetting(.875em,1.75em,bold);
+	}
+	p{
+		@include fontSetting(1em,1.75em,normal);
+	}
+	li{
+		@include fontSetting(1em,1.75em,normal);
+	}
+}
+
+blockquote{
+	font-weight: 800;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size:1.25em;
+	display: block;
+	font-style:italic;
+}

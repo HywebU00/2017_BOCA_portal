@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>外交部領事事務局全球資訊網</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/module/bootstrap-3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/module/bootstrap-3.3.2/css/bootstrap-theme.min.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- slick 輪播-->
+<link rel="stylesheet" href="assets/module/slick/slick.css">
+<link rel="stylesheet" href="assets/module/slick/slick-theme.css">
+<!--fontello icon font -->
+<link rel="stylesheet" href="assets/module/fontello/css/fontello.css">
+<!-- 自訂CSS -->
+<link rel="stylesheet" href="assets/css/bootstrap.offcanvas.css">
+<link rel="stylesheet" href="css/design.css">
+</head>
+<body>
+    <!-- header -->
+    <section id="Header">
+        <div class="accesskey hidden-xs">
+            <a href="#" title="header" id="accesskeyU" accesskey="U">:::</a>
+        </div>
+        <nav class="navbar" role="navigation">
+            <div class="container">
+                <div class="row">
+                    <!--手機收合選單-->
+                    <div class="navbar-header">
+                        <!-- 左側 -->
+                        <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#offcanvas-left">
+                            <span class="sr-only">Toggle navigation</span><i class="icon-menu"></i>
+                        </button>
+                        <a class="Logo" href="mp.htm"><img src="images/logo.png" alt="" class="img-responsive">
+                        </a>
+                        <!-- 右側 -->
+                        <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target="#offcanvas-right">
+                            <span class="sr-only">Toggle navigation</span><i class="icon-down-open"></i>
+                        </button>
+                    </div>
+                    <!--其他選單 收合右側-->
+                    <div class="collapse navbar-collapse" id="offcanvas-right" role="navigation">
+                        <div class="Navigation">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">首頁</a></li>
+                                <li><a href="#">網站導覽</a></li>
+                                <li><a href="#">常見問答</a></li>
+                                <li><a href="#">局長信箱</a></li>
+                                <li><a href="#">雙語詞彙</a></li>
+                                <li><a href="#">平安留言板</a></li>
+                                <li><a href="#">問卷調查</a></li>
+                            </ul>
+                        </div>
+                        <!--search-->
+                        <div class="Search">
+                            <div class="accesskey hidden-xs"><a href="#" accesskey="S" title="站內搜尋">:::</a></div>
+                            <form class="navbar-form" role="search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="全站搜尋">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn">
+                                            <i class="icon-mic"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-search">
+                                          查詢
+                                      </button>
+                                      <a href="#" class="btn btn-search">進階查詢</a>
+                                  </span>
+                              </div>
+                              <div class="HotKeywords">
+                                熱門關鍵字：
+                                <a href="#">度假打工</a>
+                                <a href="#">簽證</a>
+                                <a href="#">護照規費</a>
+                                <a href="#">護照遺失</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--主選單  收合左側-->
+            <div class="collapse navbar-collapse" id="offcanvas-left" role="navigation">
+                <div class="MainMenu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <!--First-->
+                            <a href="#" data-hover="dropdown" data-toggle="dropdown" class="active dropdown-toggle" title="" aria-expanded="false">護照<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <!--First-->
+                            <a href="#" data-hover="dropdown" data-toggle="dropdown" class="active dropdown-toggle" title="" aria-expanded="false">簽證<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <!--First-->
+                            <a href="#" data-hover="dropdown" data-toggle="dropdown" class="active dropdown-toggle" title="" aria-expanded="false">文件證明<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <!--First-->
+                            <a href="#" data-hover="dropdown" data-toggle="dropdown" class="active dropdown-toggle" title="" aria-expanded="false">旅外安全<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <!--First-->
+                            <a href="#" data-hover="dropdown" data-toggle="dropdown" class="active dropdown-toggle" title="" aria-expanded="false">國內外申辦地點<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <!--First-->
+                            <a href="#" data-hover="dropdown" data-toggle="dropdown" class="active dropdown-toggle" title="" aria-expanded="false">關於本局<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                                <li><a href="#" title="">第二層選單</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</section>
+<!-- 內容開始 -->
+<div class="MainContent"> 
+  <!--內頁 start -->
+  <div class="Block_incontent">
+    <div class="container">
+      <div class="row clearfix">
+        <div class=" col-md-12"> 
+          <!--右欄資訊 start -->
+          <div class="accesskey"><a href="#" title="中央內容區塊" accesskey="C">:::</a></div>
+          <!--friendly start -->
+          <div class="friendly">
+              <ol class="breadcrumb">
+                  <li class="before">現在位置:</li>
+                  <li><a href="mp.htm">首頁</a></li>
+                  <li><a href="#">旅外安全</a></li>
+                  <li class="active">國外旅遊警示分級表</li>
+              </ol>
+              <!--function start -->
+              <div class="function">
+                <ul>
+                    <li><a href="javascript:history.back();" class="back">回上一頁</a><noscript>( alt + ← Back)</noscript></li>
+                </ul>
+            </div>
+            <!--function end -->
+        </div>
+        <!--friendly end -->
+        <!--country1 start -->
+        <section class="country1">
+            <h1>國外旅遊警示分級表</h1>
+            <ul class="regional">
+                <li>地區：亞太區</li>
+                <li>國家：泰國(Thailand)</li>
+            </ul>
+            <!--分類 start -->
+            <nav class="category">
+              <ul>
+                <li><a href="#">簽證及入境須知</a></li>
+                <li><a href="#">駐館位置及聯絡方式</a></li>
+                <li><a href="#">國家基本資料</a></li>
+                <li><a href="#">生活資訊</a></li>
+                <li class="here"><a href="#">特殊資訊</a></li>
+                <li><a href="#">消費者保護機構</a></li>
+                <li><a href="#">國外旅遊警示分級表</a></li>
+            </ul>
+        </nav>
+        <!--分類 end -->
+        <!--list start -->
+        <section class="listTb">
+            <table summary="*">
+                <thead>
+                    <tr>
+                        <th scope="col">國家基本資料</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="col">發布/更新日期</th>
+                        <td data-title="發布/更新日期">2017/06/04 上午 11:49:00 <img src="images/new.gif" alt="最新資訊"></td>
+                    </tr>
+                    <tr>
+                        <th scope="col">警示等級</th>
+                        <td data-title="警示等級">
+                            <!--red：不宜前往，宜盡速離境。yellow： 注意旅遊安全並檢討應否前往。orange：避免非必要旅行。gray：提醒注意。-->
+                            <span class="orange"></span>橙色警示-高度小心,避免非必要旅行</td>
+                        </tr>
+                        <tr>
+                            <th scope="col">國家地區</th>
+                            <td data-title="國家地區">泰國 - 泰、柬邊境爭議地區(帕威寒國家公園)</td>
+                        </tr>
+                        <tr>
+                            <th scope="col">國家地區英文名稱</th>
+                            <td data-title="國家地區英文名稱">Thailand -Disputed area around Preah Vihear</td>
+                        </tr>
+                        <tr>
+                            <th scope="col">警示說明</th>
+                            <td data-title="警示說明">
+                                <ol>
+                                    <li>國際法庭於2013年11月11日就泰、柬兩國帕威寒古神廟(Preah Viharn)周邊領土爭議案宣判，澄清該法庭1962年判決該廟遺址屬於柬埔寨，惟否決柬方所提出以殖民時期地圖劃定泰柬邊界之要求，確認鄰近該神廟領土仍屬泰國，並要求泰國檢討1962年判決之邊界，以及泰、柬兩國共同保護列名世界文化遺產之古蹟。泰國政府對此判決表示滿意並願與柬國協商存在爭議邊界之界線問題，邊境爭議地區之緊張情勢已趨緩和。</li>
+                                    <li>位於泰國與柬埔寨邊境爭議地區之帕威寒神廟於2011年2月發生多次泰、柬武力衝突。嗣於2011年4、5月間泰、柬兩國又在帕威寒神廟以西150公里，即泰國素林府(Surin)帕農東拉區(Phanom Dong Rak)及柬國奧多棉吉省(Oddar Meancheay)邊境，鄰近Ta Moan及Ta Krabey兩座神廟周邊地區發生軍事武裝衝突，造成雙方人員傷亡及當地上萬民眾撤離。</li>
+                                    <li>帕威寒神廟(在柬國稱為帕威夏神廟 Preah Vihear)所在之泰國帕威寒山國家公園雖已恢復開放觀光，惟該神廟及周邊仍無法進入，僅能以望遠鏡遠觀。帕威寒神廟面朝泰國，觀光客多需自泰國境內搭機至烏汶(Ubon Ratchathani)後，搭車經四色菊(Srisaket) 轉專車前往該國家公園，因該地區仍屬「軍事管制區」，非隨時可進入，出發前請先瞭解當日是否開放，而該神廟背朝柬國，附近懸崖峭壁及荒野，人跡罕至，目前自柬境尚無法赴該神廟觀光。</li>
+                                    <li>鑒於泰柬邊境衝突雖已暫趨緩和，惟柬泰邊境爭議地區之局勢仍未明朗，基於保護國人安全考量，本處仍提醒赴泰、柬商旅國人應注意自身安全，隨時注意情勢發展。倘遇緊急狀況，請即與我駐泰國代表處聯繫。駐泰國代表處緊急聯絡電話：(66)81-6664006、(66)81-6664008；泰國境內直撥：(081)6664006、6664008。</li>
+                                </ol>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <!--list end -->
+            <section class="listTb">        
+                <table class="table-hover" summary="*">
+                    <thead><tr><th scope="col"><a id="AsiaPacific" title="亞太地區"></a>亞太地區</th></tr></thead>
+                    <tbody><tr><td data-title="國家名稱"><a id="AsiaPacific2" title="亞太地區"></a><a href="/sp-foof-countrycp-02-277-ef187-1.html" title="美屬薩摩亞&nbsp;(American Samoa) - 美屬薩摩亞（兼轄館處：駐檀香山臺北經濟文化辦事處）">美屬薩摩亞&nbsp;(American Samoa) - 美屬薩摩亞（兼轄館處：駐檀香山臺北經濟文化辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-17-c471c-1.html" title="澳大利亞&nbsp;(Australia) - 駐澳大利亞臺北經濟文化辦事處">澳大利亞&nbsp;(Australia) - 駐澳大利亞臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-15-c80aa-1.html" title="澳大利亞-布里斯本&nbsp;(Australia-Brisbane) - 駐布里斯本臺北經濟文化辦事處">澳大利亞-布里斯本&nbsp;(Australia-Brisbane) - 駐布里斯本臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-16-9b625-1.html" title="澳大利亞-墨爾本&nbsp;(Australia-Melbourne) - 駐墨爾本臺北經濟文化辦事處">澳大利亞-墨爾本&nbsp;(Australia-Melbourne) - 駐墨爾本臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-18-2045c-1.html" title="澳大利亞-新南威爾斯州(雪梨)&nbsp;(Australia-the State of New South Wales(Sydney)) - 駐雪梨臺北經濟文化辦事處">澳大利亞-新南威爾斯州(雪梨)&nbsp;(Australia-the State of New South Wales(Sydney)) - 駐雪梨臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-122-07ecd-1.html" title="孟加拉&nbsp;(Bangladesh) - 孟加拉（兼轄館處：駐印度臺北經濟文化中心）">孟加拉&nbsp;(Bangladesh) - 孟加拉（兼轄館處：駐印度臺北經濟文化中心）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-123-d5f77-1.html" title="不丹&nbsp;(Bhutan) - 不丹（兼轄館處：駐印度臺北經濟文化中心）">不丹&nbsp;(Bhutan) - 不丹（兼轄館處：駐印度臺北經濟文化中心）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-26-525b5-1.html" title="汶萊&nbsp;(Brunei) - 駐汶萊臺北經濟文化代表處">汶萊&nbsp;(Brunei) - 駐汶萊臺北經濟文化代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-159-129ef-1.html" title="柬埔寨&nbsp;(Cambodia) - 柬埔寨（兼轄館處：駐胡志明市臺北經濟文化辦事處）">柬埔寨&nbsp;(Cambodia) - 柬埔寨（兼轄館處：駐胡志明市臺北經濟文化辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-184-32281-1.html" title="庫克群島(自治政府)&nbsp;(Cook Islands) - 庫克群島(自治政府)（兼轄館處：駐紐西蘭臺北經濟文化辦事處）">庫克群島(自治政府)&nbsp;(Cook Islands) - 庫克群島(自治政府)（兼轄館處：駐紐西蘭臺北經濟文化辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-14-a6deb-1.html" title="斐濟&nbsp;(Fiji) - 中華民國駐斐濟商務代表團">斐濟&nbsp;(Fiji) - 中華民國駐斐濟商務代表團</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-266-b6e0e-1.html" title="法屬玻里尼西亞(大溪地)&nbsp;(French Polynesia) - 法屬玻里尼西亞(大溪地)（兼轄館處：中華民國駐斐濟商務代表團，駐奧克蘭臺北經濟文化辦事處）">法屬玻里尼西亞(大溪地)&nbsp;(French Polynesia) - 法屬玻里尼西亞(大溪地)（兼轄館處：中華民國駐斐濟商務代表團，駐奧克蘭臺北經濟文化辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-21-84369-1.html" title="印度&nbsp;(India) - 駐印度臺北經濟文化中心">印度&nbsp;(India) - 駐印度臺北經濟文化中心</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-22-c7565-1.html" title="印度-清奈&nbsp;(India-Chennai) - 駐清奈臺北經濟文化辦事處">印度-清奈&nbsp;(India-Chennai) - 駐清奈臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-12-c23b0-1.html" title="印尼&nbsp;(Indonesia) - 駐印尼臺北經濟貿易代表處">印尼&nbsp;(Indonesia) - 駐印尼臺北經濟貿易代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-13-5da7f-1.html" title="印尼-泗水&nbsp;(Indonesia-Surabaya) - 駐泗水臺北經濟貿易辦事處">印尼-泗水&nbsp;(Indonesia-Surabaya) - 駐泗水臺北經濟貿易辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-29-77969-1.html" title="日本&nbsp;(Japan) - 臺北駐日經濟文化代表處">日本&nbsp;(Japan) - 臺北駐日經濟文化代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-31-92761-1.html" title="日本-福岡&nbsp;(Japan-Fukuoka) - 臺北駐大阪經濟文化辦事處福岡分處">日本-福岡&nbsp;(Japan-Fukuoka) - 臺北駐大阪經濟文化辦事處福岡分處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-32-cb309-1.html" title="日本-大阪&nbsp;(Japan-Osaka) - 臺北駐大阪經濟文化辦事處">日本-大阪&nbsp;(Japan-Osaka) - 臺北駐大阪經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-33-90862-1.html" title="日本-琉球(那霸)&nbsp;(Japan-Ryukyu, Naha Branch) - 臺北駐日經濟文化代表處那霸分處">日本-琉球(那霸)&nbsp;(Japan-Ryukyu, Naha Branch) - 臺北駐日經濟文化代表處那霸分處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-34-060b2-1.html" title="日本-札幌&nbsp;(Japan-Sapporo) - 臺北駐日經濟文化代表處札幌分處">日本-札幌&nbsp;(Japan-Sapporo) - 臺北駐日經濟文化代表處札幌分處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-30-147e1-1.html" title="日本-橫濱&nbsp;(Japan-Yokohama) - 臺北駐日經濟文化代表處橫濱分處">日本-橫濱&nbsp;(Japan-Yokohama) - 臺北駐日經濟文化代表處橫濱分處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-6-924c7-1.html" title="吉里巴斯&nbsp;(Kiribati) - 駐吉里巴斯共和國大使館">吉里巴斯&nbsp;(Kiribati) - 駐吉里巴斯共和國大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-1-6256a-1.html" title="韓國&nbsp;(Korea) - 駐韓國臺北代表部">韓國&nbsp;(Korea) - 駐韓國臺北代表部</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-2-aff61-1.html" title="韓國-釜山&nbsp;(Korea-Busan) - 駐韓國臺北代表部釜山辦事處">韓國-釜山&nbsp;(Korea-Busan) - 駐韓國臺北代表部釜山辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-117-2e720-1.html" title="寮國&nbsp;(Lao) - 寮國（兼轄館處：駐越南臺北經濟文化辦事處）">寮國&nbsp;(Lao) - 寮國（兼轄館處：駐越南臺北經濟文化辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-23-a7372-1.html" title="馬來西亞&nbsp;(Malaysia) - 駐馬來西亞臺北經濟文化辦事處">馬來西亞&nbsp;(Malaysia) - 駐馬來西亞臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-183-3e14c-1.html" title="馬爾地夫&nbsp;(Maldives) - 馬爾地夫（兼轄館處：駐清奈臺北經濟文化辦事處）">馬爾地夫&nbsp;(Maldives) - 馬爾地夫（兼轄館處：駐清奈臺北經濟文化辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-5-05013-1.html" title="馬紹爾群島&nbsp;(Marshall Islands) - 駐馬紹爾共和國大使館">馬紹爾群島&nbsp;(Marshall Islands) - 駐馬紹爾共和國大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-135-1ddbe-1.html" title="密克羅尼西亞聯邦&nbsp;(Micronesia) - 密克羅尼西亞聯邦（兼轄館處：駐帛琉共和國大使館）">密克羅尼西亞聯邦&nbsp;(Micronesia) - 密克羅尼西亞聯邦（兼轄館處：駐帛琉共和國大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-25-51b50-1.html" title="緬甸&nbsp;(Myanmar) - 駐緬甸臺北經濟文化辦事處">緬甸&nbsp;(Myanmar) - 駐緬甸臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-28-3e2b6-1.html" title="諾魯&nbsp;(Nauru) - 駐諾魯共和國大使館">諾魯&nbsp;(Nauru) - 駐諾魯共和國大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-124-24014-1.html" title="尼泊爾&nbsp;(Nepal) - 尼泊爾（兼轄館處：駐印度臺北經濟文化中心）">尼泊爾&nbsp;(Nepal) - 尼泊爾（兼轄館處：駐印度臺北經濟文化中心）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-267-3e538-1.html" title="新喀里多尼亞&nbsp;(New Caledonia) - 新喀里多尼亞（兼轄館處：中華民國駐斐濟商務代表團）">新喀里多尼亞&nbsp;(New Caledonia) - 新喀里多尼亞（兼轄館處：中華民國駐斐濟商務代表團）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-19-2e478-1.html" title="紐西蘭&nbsp;(New Zealand) - 駐紐西蘭臺北經濟文化辦事處">紐西蘭&nbsp;(New Zealand) - 駐紐西蘭臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-20-852ac-1.html" title="紐西蘭-奧克蘭&nbsp;(New Zealand-Auckland) - 駐奧克蘭臺北經濟文化辦事處">紐西蘭-奧克蘭&nbsp;(New Zealand-Auckland) - 駐奧克蘭臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-185-e9399-1.html" title="紐埃(自治政府)&nbsp;(Niue) - 紐埃(自治政府)（兼轄館處：駐紐西蘭臺北經濟文化辦事處）">紐埃(自治政府)&nbsp;(Niue) - 紐埃(自治政府)（兼轄館處：駐紐西蘭臺北經濟文化辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-134-8775a-1.html" title="北馬利安納群島邦&nbsp;(Norfolk Island) - 北馬利安納群島邦（兼轄館處：駐帛琉共和國大使館）">北馬利安納群島邦&nbsp;(Norfolk Island) - 北馬利安納群島邦（兼轄館處：駐帛琉共和國大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-121-0eca2-1.html" title="北韓&nbsp;(North Korea) - 北韓（兼轄館處：駐新加坡臺北代表處）">北韓&nbsp;(North Korea) - 北韓（兼轄館處：駐新加坡臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-7-21341-1.html" title="帛琉&nbsp;(Palau) - 駐帛琉共和國大使館">帛琉&nbsp;(Palau) - 駐帛琉共和國大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-27-88afb-1.html" title="巴布亞紐幾內亞&nbsp;(Papua New Guinea) - 中華民國駐巴布亞紐幾內亞商務代表團">巴布亞紐幾內亞&nbsp;(Papua New Guinea) - 中華民國駐巴布亞紐幾內亞商務代表團</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-11-6fcbf-1.html" title="菲律賓&nbsp;(Philippines) - 駐菲律賓臺北經濟文化辦事處">菲律賓&nbsp;(Philippines) - 駐菲律賓臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-265-8c7c9-1.html" title="薩摩亞&nbsp;(Samoa) - 薩摩亞（兼轄館處：中華民國駐斐濟商務代表團）">薩摩亞&nbsp;(Samoa) - 薩摩亞（兼轄館處：中華民國駐斐濟商務代表團）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-10-fa952-1.html" title="新加坡&nbsp;(Singapore) - 駐新加坡臺北代表處">新加坡&nbsp;(Singapore) - 駐新加坡臺北代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-3-9ae38-1.html" title="索羅門群島&nbsp;(Solomon) - 駐索羅門群島大使館">索羅門群島&nbsp;(Solomon) - 駐索羅門群島大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-182-70658-1.html" title="斯里蘭卡&nbsp;(Sri Lanka) - 斯里蘭卡（兼轄館處：駐清奈臺北經濟文化辦事處）">斯里蘭卡&nbsp;(Sri Lanka) - 斯里蘭卡（兼轄館處：駐清奈臺北經濟文化辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-24-dec45-1.html" title="泰國&nbsp;(Thailand) - 駐泰國臺北經濟文化辦事處">泰國&nbsp;(Thailand) - 駐泰國臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-120-cc80a-1.html" title="東帝汶&nbsp;(Timor-Leste) - 東帝汶（兼轄館處：駐印尼臺北經濟貿易代表處）">東帝汶&nbsp;(Timor-Leste) - 東帝汶（兼轄館處：駐印尼臺北經濟貿易代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-264-41bde-1.html" title="東加王國&nbsp;(Tonga) - 東加王國（兼轄館處：中華民國駐斐濟商務代表團）">東加王國&nbsp;(Tonga) - 東加王國（兼轄館處：中華民國駐斐濟商務代表團）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-4-66b48-1.html" title="吐瓦魯國&nbsp;(Tuvalu) - 駐吐瓦魯國大使館">吐瓦魯國&nbsp;(Tuvalu) - 駐吐瓦魯國大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-263-ce796-1.html" title="萬那杜共和國&nbsp;(Vanuatu) - 萬那杜共和國（兼轄館處：中華民國駐斐濟商務代表團）">萬那杜共和國&nbsp;(Vanuatu) - 萬那杜共和國（兼轄館處：中華民國駐斐濟商務代表團）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-8-f4a19-1.html" title="越南&nbsp;(Vietnam) - 駐越南臺北經濟文化辦事處">越南&nbsp;(Vietnam) - 駐越南臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-9-6b662-1.html" title="越南-胡志明市&nbsp;(Vietnam-Ho Chi Minh City) - 駐胡志明市臺北經濟文化辦事處">越南-胡志明市&nbsp;(Vietnam-Ho Chi Minh City) - 駐胡志明市臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-262-aff4d-1.html" title="瓦利斯群島和富圖那群島&nbsp;(Wallis and Futuna) - 瓦利斯群島和富圖那群島（兼轄館處：中華民國駐斐濟商務代表團）">瓦利斯群島和富圖那群島&nbsp;(Wallis and Futuna) - 瓦利斯群島和富圖那群島（兼轄館處：中華民國駐斐濟商務代表團）</a></td></tr></tbody></table>    <table class="table-hover" summary="*">
+                        <thead><tr><th scope="col"><a id="AsiaMiddleEast" title="亞西地區"></a>亞西地區</th></tr></thead>
+                        <tbody><tr><td data-title="國家名稱"><a id="AsiaMiddleEast2" title="亞西地區"></a><a href="/sp-foof-countrycp-02-190-fde3f-1.html" title="阿富汗&nbsp;(Afghanistan) - 阿富汗（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）">阿富汗&nbsp;(Afghanistan) - 阿富汗（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-143-c29a3-1.html" title="亞美尼亞&nbsp;(Armenia) - 亞美尼亞（兼轄館處：臺北莫斯科經濟文化協調委員會駐莫斯科代表處）">亞美尼亞&nbsp;(Armenia) - 亞美尼亞（兼轄館處：臺北莫斯科經濟文化協調委員會駐莫斯科代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-144-9faf1-1.html" title="亞塞拜然&nbsp;(Azerbaijan) - 亞塞拜然（兼轄館處：臺北莫斯科經濟文化協調委員會駐莫斯科代表處）">亞塞拜然&nbsp;(Azerbaijan) - 亞塞拜然（兼轄館處：臺北莫斯科經濟文化協調委員會駐莫斯科代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-44-b918a-1.html" title="巴林&nbsp;(Bahrain) - 駐巴林臺北貿易辦事處">巴林&nbsp;(Bahrain) - 駐巴林臺北貿易辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-145-33da6-1.html" title="白俄羅斯&nbsp;(Belarus) - 白俄羅斯（兼轄館處：臺北莫斯科經濟文化協調委員會駐莫斯科代表處）">白俄羅斯&nbsp;(Belarus) - 白俄羅斯（兼轄館處：臺北莫斯科經濟文化協調委員會駐莫斯科代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-139-c4698-1.html" title="喬治亞&nbsp;(Georgia) - 喬治亞（兼轄館處：臺北莫斯科經濟文化協調委員會駐莫斯科代表處，駐安卡拉臺北經濟文化代表團/駐土耳其代表處）">喬治亞&nbsp;(Georgia) - 喬治亞（兼轄館處：臺北莫斯科經濟文化協調委員會駐莫斯科代表處，駐安卡拉臺北經濟文化代表團/駐土耳其代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-199-96551-1.html" title="伊朗&nbsp;(Iran) - 伊朗（兼轄館處：駐杜拜臺北商務辦事處）">伊朗&nbsp;(Iran) - 伊朗（兼轄館處：駐杜拜臺北商務辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-247-7d3d1-1.html" title="伊拉克&nbsp;(Iraq) - 伊拉克（兼轄館處：中華民國(臺灣)商務辦事處/駐約旦代表處）">伊拉克&nbsp;(Iraq) - 伊拉克（兼轄館處：中華民國(臺灣)商務辦事處/駐約旦代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-48-9bc3c-1.html" title="以色列&nbsp;(Israel) - 駐臺拉維夫臺北經濟文化辦事處/以色列代表處">以色列&nbsp;(Israel) - 駐臺拉維夫臺北經濟文化辦事處/以色列代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-45-ef23c-1.html" title="約旦&nbsp;(Jordan) - 中華民國(臺灣)商務辦事處/駐約旦代表處">約旦&nbsp;(Jordan) - 中華民國(臺灣)商務辦事處/駐約旦代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-137-c6e20-1.html" title="哈薩克&nbsp;(Kazakhstan) - 哈薩克（兼轄館處：駐安卡拉台北經濟文化代表團∕駐土耳其代表處，臺北莫斯科經濟文化協調委員會駐莫斯科代表處）">哈薩克&nbsp;(Kazakhstan) - 哈薩克（兼轄館處：駐安卡拉台北經濟文化代表團∕駐土耳其代表處，臺北莫斯科經濟文化協調委員會駐莫斯科代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-46-a835f-1.html" title="科威特&nbsp;(Kuwait) - 駐科威特王國臺北商務代表處">科威特&nbsp;(Kuwait) - 駐科威特王國臺北商務代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-138-788aa-1.html" title="吉爾吉斯&nbsp;(Kyrgyzstan) - 吉爾吉斯（兼轄館處：臺北莫斯科經濟文化協調委員會駐莫斯科代表處）">吉爾吉斯&nbsp;(Kyrgyzstan) - 吉爾吉斯（兼轄館處：臺北莫斯科經濟文化協調委員會駐莫斯科代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-248-44b59-1.html" title="黎巴嫩&nbsp;(Lebanon) - 黎巴嫩（兼轄館處：中華民國(臺灣)商務辦事處/駐約旦代表處）">黎巴嫩&nbsp;(Lebanon) - 黎巴嫩（兼轄館處：中華民國(臺灣)商務辦事處/駐約旦代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-147-ba17a-1.html" title="摩爾多瓦&nbsp;(Moldova) - 摩爾多瓦（兼轄館處：臺北莫斯科經濟文化協調委員會駐莫斯科代表處）">摩爾多瓦&nbsp;(Moldova) - 摩爾多瓦（兼轄館處：臺北莫斯科經濟文化協調委員會駐莫斯科代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-50-c3199-1.html" title="蒙古&nbsp;(Mongolia) - 駐烏蘭巴托臺北貿易經濟代表處/駐蒙古代表處">蒙古&nbsp;(Mongolia) - 駐烏蘭巴托臺北貿易經濟代表處/駐蒙古代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-47-5f61f-1.html" title="阿曼&nbsp;(Oman) - 駐阿曼王國臺北經濟文化辦事處">阿曼&nbsp;(Oman) - 駐阿曼王國臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-188-a4646-1.html" title="巴基斯坦&nbsp;(Pakistan) - 巴基斯坦（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）">巴基斯坦&nbsp;(Pakistan) - 巴基斯坦（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-189-44952-1.html" title="卡達&nbsp;(Qatar) - 卡達（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）">卡達&nbsp;(Qatar) - 卡達（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-43-b55c4-1.html" title="俄羅斯&nbsp;(Russian) - 臺北莫斯科經濟文化協調委員會駐莫斯科代表處">俄羅斯&nbsp;(Russian) - 臺北莫斯科經濟文化協調委員會駐莫斯科代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-42-190d2-1.html" title="沙烏地阿拉伯&nbsp;(Saudi Arabia) - 駐沙烏地阿拉伯王國臺北經濟文化代表處">沙烏地阿拉伯&nbsp;(Saudi Arabia) - 駐沙烏地阿拉伯王國臺北經濟文化代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-245-ef906-1.html" title="敘利亞&nbsp;(Syrian) - 敘利亞（兼轄館處：中華民國(臺灣)商務辦事處/駐約旦代表處）">敘利亞&nbsp;(Syrian) - 敘利亞（兼轄館處：中華民國(臺灣)商務辦事處/駐約旦代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-140-12370-1.html" title="塔吉克&nbsp;(Tajikistan) - 塔吉克（兼轄館處：駐安卡拉台北經濟文化代表團∕駐土耳其代表處，臺北莫斯科經濟文化協調委員會駐莫斯科代表處）">塔吉克&nbsp;(Tajikistan) - 塔吉克（兼轄館處：駐安卡拉台北經濟文化代表團∕駐土耳其代表處，臺北莫斯科經濟文化協調委員會駐莫斯科代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-49-60be6-1.html" title="土耳其&nbsp;(Turkey) - 駐安卡拉臺北經濟文化代表團/駐土耳其代表處">土耳其&nbsp;(Turkey) - 駐安卡拉臺北經濟文化代表團/駐土耳其代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-141-7a890-1.html" title="土庫曼&nbsp;(Turkmenistan) - 土庫曼（兼轄館處：駐安卡拉台北經濟文化代表團∕駐土耳其代表處，臺北莫斯科經濟文化協調委員會駐莫斯科代表處）">土庫曼&nbsp;(Turkmenistan) - 土庫曼（兼轄館處：駐安卡拉台北經濟文化代表團∕駐土耳其代表處，臺北莫斯科經濟文化協調委員會駐莫斯科代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-146-e4106-1.html" title="烏克蘭&nbsp;(Ukraine) - 烏克蘭（兼轄館處：臺北莫斯科經濟文化協調委員會駐莫斯科代表處）">烏克蘭&nbsp;(Ukraine) - 烏克蘭（兼轄館處：臺北莫斯科經濟文化協調委員會駐莫斯科代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-51-e5142-1.html" title="阿拉伯聯合大公國&nbsp;(United Arab Emirates) - 駐杜拜臺北商務辦事處">阿拉伯聯合大公國&nbsp;(United Arab Emirates) - 駐杜拜臺北商務辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-142-11541-1.html" title="烏茲別克共和國&nbsp;(Uzbekistan) - 烏茲別克共和國（兼轄館處：駐安卡拉台北經濟文化代表團∕駐土耳其代表處，臺北莫斯科經濟文化協調委員會駐莫斯科代表處）">烏茲別克共和國&nbsp;(Uzbekistan) - 烏茲別克共和國（兼轄館處：駐安卡拉台北經濟文化代表團∕駐土耳其代表處，臺北莫斯科經濟文化協調委員會駐莫斯科代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-195-bc8f3-1.html" title="葉門共和國&nbsp;(Yemen) - 葉門共和國（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）">葉門共和國&nbsp;(Yemen) - 葉門共和國（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）</a></td></tr></tbody></table>  <table class="table-hover" summary="*">
+                            <thead><tr><th scope="col"><a id="Africa" title="非洲地區"></a>非洲地區</th></tr></thead>
+                            <tbody><tr><td data-title="國家名稱"><a id="Africa2" title="非洲地區"></a><a href="/sp-foof-countrycp-02-125-a4cce-1.html" title="阿爾及利亞&nbsp;(Algeria) - 阿爾及利亞（兼轄館處：駐法國臺北代表處）">阿爾及利亞&nbsp;(Algeria) - 阿爾及利亞（兼轄館處：駐法國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-166-36b2e-1.html" title="安哥拉&nbsp;(Angola) - 安哥拉（兼轄館處：駐南非共和國臺北聯絡代表處）">安哥拉&nbsp;(Angola) - 安哥拉（兼轄館處：駐南非共和國臺北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-235-01fd3-1.html" title="貝南&nbsp;(Benin) - 貝南（兼轄館處：駐法國臺北代表處，駐布吉納法索大使館，中華民國駐奈及利亞聯邦共和國商務代表團(該館處目前暫時停止運作,相關領務業務由其他館處暫代)）">貝南&nbsp;(Benin) - 貝南（兼轄館處：駐法國臺北代表處，駐布吉納法索大使館，中華民國駐奈及利亞聯邦共和國商務代表團(該館處目前暫時停止運作,相關領務業務由其他館處暫代)）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-161-2cd9a-1.html" title="波札那&nbsp;(Botswana) - 波札那（兼轄館處：駐南非共和國臺北聯絡代表處）">波札那&nbsp;(Botswana) - 波札那（兼轄館處：駐南非共和國臺北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-39-b3061-1.html" title="布吉納法索&nbsp;(Burkina Faso) - 駐布吉納法索大使館">布吉納法索&nbsp;(Burkina Faso) - 駐布吉納法索大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-177-5d187-1.html" title="蒲隆地&nbsp;(Burundi) - 蒲隆地（兼轄館處：駐歐盟兼駐比利時臺北代表處，駐法國臺北代表處，駐南非共和國台北聯絡代表處）">蒲隆地&nbsp;(Burundi) - 蒲隆地（兼轄館處：駐歐盟兼駐比利時臺北代表處，駐法國臺北代表處，駐南非共和國台北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-206-196e3-1.html" title="喀麥隆&nbsp;(Cameroon) - 喀麥隆（兼轄館處：駐南非代表處，駐布吉納法索大使館，中華民國駐奈及利亞聯邦共和國商務代表團(該館處目前暫時停止運作,相關領務業務由其他館處暫代)）">喀麥隆&nbsp;(Cameroon) - 喀麥隆（兼轄館處：駐南非代表處，駐布吉納法索大使館，中華民國駐奈及利亞聯邦共和國商務代表團(該館處目前暫時停止運作,相關領務業務由其他館處暫代)）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-249-3fa7d-1.html" title="維德角島&nbsp;(Cape Verde) - 維德角島（兼轄館處：駐葡萄牙臺北經濟文化中心）">維德角島&nbsp;(Cape Verde) - 維德角島（兼轄館處：駐葡萄牙臺北經濟文化中心）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-233-7998a-1.html" title="中非&nbsp;(Central African Republic) - 中非（兼轄館處：駐布吉納法索大使館）">中非&nbsp;(Central African Republic) - 中非（兼轄館處：駐布吉納法索大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-234-a88f4-1.html" title="查德&nbsp;(Chad) - 查德（兼轄館處：駐布吉納法索大使館）">查德&nbsp;(Chad) - 查德（兼轄館處：駐布吉納法索大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-162-cbaa9-1.html" title="葛摩聯盟&nbsp;(Comoros) - 葛摩聯盟（兼轄館處：駐法國臺北代表處，駐南非共和國臺北聯絡代表處）">葛摩聯盟&nbsp;(Comoros) - 葛摩聯盟（兼轄館處：駐法國臺北代表處，駐南非共和國臺北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-241-cb0b3-1.html" title="象牙海岸&nbsp;(Cote d'Ivoire) - 象牙海岸（兼轄館處：駐法國臺北代表處，駐布吉納法索大使館）">象牙海岸&nbsp;(Cote d'Ivoire) - 象牙海岸（兼轄館處：駐法國臺北代表處，駐布吉納法索大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-149-bbb26-1.html" title="剛果(金夏沙)&nbsp;(Democratic Republic of the Congo) - 剛果(金夏沙)（兼轄館處：駐歐盟兼駐比利時臺北代表處）">剛果(金夏沙)&nbsp;(Democratic Republic of the Congo) - 剛果(金夏沙)（兼轄館處：駐歐盟兼駐比利時臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-191-a2058-1.html" title="吉布地&nbsp;(Djibouti) - 吉布地（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）">吉布地&nbsp;(Djibouti) - 吉布地（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-244-28874-1.html" title="埃及&nbsp;(Egypt) - 埃及（兼轄館處：中華民國(臺灣)商務辦事處/駐約旦代表處）">埃及&nbsp;(Egypt) - 埃及（兼轄館處：中華民國(臺灣)商務辦事處/駐約旦代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-148-f84ff-1.html" title="赤道幾內亞&nbsp;(Equatorial Guinea) - 赤道幾內亞（兼轄館處：駐西班牙臺北經濟文化辦事處）">赤道幾內亞&nbsp;(Equatorial Guinea) - 赤道幾內亞（兼轄館處：駐西班牙臺北經濟文化辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-197-056fb-1.html" title="厄利垂亞&nbsp;(Eritrea) - 厄利垂亞（兼轄館處：駐杜拜臺北商務辦事處，駐南非共和國台北聯絡代表處）">厄利垂亞&nbsp;(Eritrea) - 厄利垂亞（兼轄館處：駐杜拜臺北商務辦事處，駐南非共和國台北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-192-4eeea-1.html" title="衣索比亞&nbsp;(Ethiopia) - 衣索比亞（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）">衣索比亞&nbsp;(Ethiopia) - 衣索比亞（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-239-d0062-1.html" title="加彭&nbsp;(Gabonese) - 加彭（兼轄館處：駐布吉納法索大使館，駐法國臺北代表處，駐歐盟兼駐比利時臺北代表處）">加彭&nbsp;(Gabonese) - 加彭（兼轄館處：駐布吉納法索大使館，駐法國臺北代表處，駐歐盟兼駐比利時臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-212-f1a39-1.html" title="迦納&nbsp;(Ghana) - 迦納（兼轄館處：駐南非代表處，駐布吉那法索大使館，駐泰國代表處(限商務簽證申請)）">迦納&nbsp;(Ghana) - 迦納（兼轄館處：駐南非代表處，駐布吉那法索大使館，駐泰國代表處(限商務簽證申請)）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-232-54f6e-1.html" title="幾內亞&nbsp;(Guinea) - 幾內亞（兼轄館處：駐法國臺北代表處，駐布吉納法索大使館）">幾內亞&nbsp;(Guinea) - 幾內亞（兼轄館處：駐法國臺北代表處，駐布吉納法索大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-250-5289e-1.html" title="幾內亞比索&nbsp;(Guinea-Bissau) - 幾內亞比索（兼轄館處：駐葡萄牙臺北經濟文化中心）">幾內亞比索&nbsp;(Guinea-Bissau) - 幾內亞比索（兼轄館處：駐葡萄牙臺北經濟文化中心）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-175-34af8-1.html" title="肯亞&nbsp;(Kenya) - 肯亞（兼轄館處：駐南非共和國臺北聯絡代表處）">肯亞&nbsp;(Kenya) - 肯亞（兼轄館處：駐南非共和國臺北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-172-0ebf8-1.html" title="賴索托&nbsp;(Lesotho) - 賴索托（兼轄館處：駐南非共和國臺北聯絡代表處）">賴索托&nbsp;(Lesotho) - 賴索托（兼轄館處：駐南非共和國臺北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-211-1c71f-1.html" title="賴比瑞亞&nbsp;(Liberia) - 賴比瑞亞（兼轄館處：中華民國駐奈及利亞聯邦共和國商務代表團(該館處目前暫時停止運作,相關領務業務由其他館處暫代)，駐南非代表處）">賴比瑞亞&nbsp;(Liberia) - 賴比瑞亞（兼轄館處：中華民國駐奈及利亞聯邦共和國商務代表團(該館處目前暫時停止運作,相關領務業務由其他館處暫代)，駐南非代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-246-e5470-1.html" title="利比亞&nbsp;(Libya) - 利比亞（兼轄館處：中華民國(臺灣)商務辦事處/駐約旦代表處，駐法國台北代表處）">利比亞&nbsp;(Libya) - 利比亞（兼轄館處：中華民國(臺灣)商務辦事處/駐約旦代表處，駐法國台北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-173-3db90-1.html" title="馬達加斯加&nbsp;(Madagascar) - 馬達加斯加（兼轄館處：駐南非共和國臺北聯絡代表處）">馬達加斯加&nbsp;(Madagascar) - 馬達加斯加（兼轄館處：駐南非共和國臺北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-174-eaee3-1.html" title="馬拉威&nbsp;(Malawi) - 馬拉威（兼轄館處：駐南非共和國臺北聯絡代表處）">馬拉威&nbsp;(Malawi) - 馬拉威（兼轄館處：駐南非共和國臺北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-238-18c67-1.html" title="馬利&nbsp;(Mali) - 馬利（兼轄館處：駐法國臺北代表處，駐布吉納法索大使館）">馬利&nbsp;(Mali) - 馬利（兼轄館處：駐法國臺北代表處，駐布吉納法索大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-131-66cfa-1.html" title="茅利塔尼亞&nbsp;(Mauritania) - 茅利塔尼亞（兼轄館處：駐法國臺北代表處）">茅利塔尼亞&nbsp;(Mauritania) - 茅利塔尼亞（兼轄館處：駐法國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-176-94a33-1.html" title="模里西斯&nbsp;(Mauritius) - 模里西斯（兼轄館處：駐南非共和國臺北聯絡代表處）">模里西斯&nbsp;(Mauritius) - 模里西斯（兼轄館處：駐南非共和國臺北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-171-66952-1.html" title="馬約特島&nbsp;(Mayotte) - 馬約特島（兼轄館處：駐法國臺北代表處）">馬約特島&nbsp;(Mayotte) - 馬約特島（兼轄館處：駐法國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-129-8e956-1.html" title="摩洛哥王國&nbsp;(Morocco) - 摩洛哥王國（兼轄館處：駐法國臺北代表處）">摩洛哥王國&nbsp;(Morocco) - 摩洛哥王國（兼轄館處：駐法國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-279-08196-1.html" title="摩洛哥王國-摩洛哥(含西撒哈拉)&nbsp;(Morocco-) - 摩洛哥王國（兼轄館處：駐法國臺北代表處）">摩洛哥王國-摩洛哥(含西撒哈拉)&nbsp;(Morocco-) - 摩洛哥王國（兼轄館處：駐法國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-214-3f38b-1.html" title="莫三比克&nbsp;(Mozambique) - 莫三比克（兼轄館處：駐史瓦濟蘭王國大使館）">莫三比克&nbsp;(Mozambique) - 莫三比克（兼轄館處：駐史瓦濟蘭王國大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-179-934da-1.html" title="納米比亞&nbsp;(Namibia) - 納米比亞（兼轄館處：駐開普敦臺北聯絡辦事處）">納米比亞&nbsp;(Namibia) - 納米比亞（兼轄館處：駐開普敦臺北聯絡辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-237-c449b-1.html" title="尼日&nbsp;(Niger) - 尼日（兼轄館處：駐布吉納法索大使館）">尼日&nbsp;(Niger) - 尼日（兼轄館處：駐布吉納法索大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-41-66c44-1.html" title="奈及利亞-中華民國駐奈及利亞聯邦共和國商務代表團(該館處目前暫時停止運作,相關領務業務由其他館處暫代)&nbsp;(Nigeria-) - 奈及利亞（兼轄館處：駐南非代表處，駐布吉那法索大使館，駐泰國辦事處(限商務簽證)）">奈及利亞-中華民國駐奈及利亞聯邦共和國商務代表團(該館處目前暫時停止運作,相關領務業務由其他館處暫代)&nbsp;(Nigeria-) - 奈及利亞（兼轄館處：駐南非代表處，駐布吉那法索大使館，駐泰國辦事處(限商務簽證)）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-280-d1072-1.html" title="剛果(布拉薩)&nbsp;(Republic of the Congo) - 剛果(布拉薩)（兼轄館處：駐歐盟兼駐比利時臺北代表處，駐法國臺北代表處）">剛果(布拉薩)&nbsp;(Republic of the Congo) - 剛果(布拉薩)（兼轄館處：駐歐盟兼駐比利時臺北代表處，駐法國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-170-76709-1.html" title="留尼旺&nbsp;(Reunion) - 留尼旺（兼轄館處：駐法國臺北代表處）">留尼旺&nbsp;(Reunion) - 留尼旺（兼轄館處：駐法國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-165-5a18a-1.html" title="盧安達&nbsp;(Rwanda) - 盧安達（兼轄館處：駐歐盟兼駐比利時臺北代表處，駐南非共和國臺北聯絡代表處）">盧安達&nbsp;(Rwanda) - 盧安達（兼轄館處：駐歐盟兼駐比利時臺北代表處，駐南非共和國臺北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-251-8c594-1.html" title="聖多美普林西比&nbsp;(Sao Tome and Principe) - 聖多美普林西比（兼轄館處：駐葡萄牙臺北經濟文化中心）">聖多美普林西比&nbsp;(Sao Tome and Principe) - 聖多美普林西比（兼轄館處：駐葡萄牙臺北經濟文化中心）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-236-9b1ff-1.html" title="塞內加爾&nbsp;(Senegal) - 塞內加爾（兼轄館處：駐布吉納法索大使館）">塞內加爾&nbsp;(Senegal) - 塞內加爾（兼轄館處：駐布吉納法索大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-169-69ec7-1.html" title="塞席爾&nbsp;(Seychelles) - 塞席爾（兼轄館處：駐英國臺北代表處，駐南非共和國台北聯絡代表處）">塞席爾&nbsp;(Seychelles) - 塞席爾（兼轄館處：駐英國臺北代表處，駐南非共和國台北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-210-4fbe9-1.html" title="獅子山&nbsp;(Sierra Leone) - 獅子山（兼轄館處：中華民國駐奈及利亞聯邦共和國商務代表團(該館處目前暫時停止運作,相關領務業務由其他館處暫代)，駐英國臺北代表處）">獅子山&nbsp;(Sierra Leone) - 獅子山（兼轄館處：中華民國駐奈及利亞聯邦共和國商務代表團(該館處目前暫時停止運作,相關領務業務由其他館處暫代)，駐英國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-198-2e75a-1.html" title="索馬利亞&nbsp;(Somalia) - 索馬利亞（兼轄館處：駐杜拜臺北商務辦事處，駐南非共和國台北聯絡代表處）">索馬利亞&nbsp;(Somalia) - 索馬利亞（兼轄館處：駐杜拜臺北商務辦事處，駐南非共和國台北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-37-0c500-1.html" title="南非&nbsp;(South Africa) - 駐南非共和國臺北聯絡代表處">南非&nbsp;(South Africa) - 駐南非共和國臺北聯絡代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-178-f100e-1.html" title="南非-開普敦&nbsp;(South Africa-Cape Town) - 駐開普敦臺北聯絡辦事處">南非-開普敦&nbsp;(South Africa-Cape Town) - 駐開普敦臺北聯絡辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-193-a60d1-1.html" title="南蘇丹&nbsp;(South Sudan) - 南蘇丹（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）">南蘇丹&nbsp;(South Sudan) - 南蘇丹（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-194-3f925-1.html" title="蘇丹&nbsp;(Sudan) - 蘇丹（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）">蘇丹&nbsp;(Sudan) - 蘇丹（兼轄館處：駐沙烏地阿拉伯王國臺北經濟文化代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-278-ec1ec-1.html" title="史瓦濟蘭王國&nbsp;(Swaziland) - 駐史瓦濟蘭王國大使館">史瓦濟蘭王國&nbsp;(Swaziland) - 駐史瓦濟蘭王國大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-167-84af7-1.html" title="坦尚尼亞&nbsp;(Tanzania) - 坦尚尼亞（兼轄館處：駐南非共和國臺北聯絡代表處）">坦尚尼亞&nbsp;(Tanzania) - 坦尚尼亞（兼轄館處：駐南非共和國臺北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-213-d37ae-1.html" title="甘比亞&nbsp;(The Gambia) - 甘比亞（兼轄館處：中華民國駐奈及利亞聯邦共和國商務代表團(該館處目前暫時停止運作,相關領務業務由其他館處暫代)，駐南非代表處）">甘比亞&nbsp;(The Gambia) - 甘比亞（兼轄館處：中華民國駐奈及利亞聯邦共和國商務代表團(該館處目前暫時停止運作,相關領務業務由其他館處暫代)，駐南非代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-240-d07f9-1.html" title="多哥&nbsp;(Togolese) - 多哥（兼轄館處：駐法國臺北代表處，駐布吉納法索大使館）">多哥&nbsp;(Togolese) - 多哥（兼轄館處：駐法國臺北代表處，駐布吉納法索大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-128-a5910-1.html" title="突尼西亞&nbsp;(Tunisian) - 突尼西亞（兼轄館處：駐法國臺北代表處）">突尼西亞&nbsp;(Tunisian) - 突尼西亞（兼轄館處：駐法國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-160-68526-1.html" title="烏干達&nbsp;(Uganda) - 烏干達（兼轄館處：駐南非共和國臺北聯絡代表處）">烏干達&nbsp;(Uganda) - 烏干達（兼轄館處：駐南非共和國臺北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-127-7765b-1.html" title="西撒哈拉&nbsp;(Western Sahara*) - 西撒哈拉（兼轄館處：駐法國臺北代表處）">西撒哈拉&nbsp;(Western Sahara*) - 西撒哈拉（兼轄館處：駐法國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-163-5317f-1.html" title="尚比亞&nbsp;(Zambia) - 尚比亞（兼轄館處：駐南非共和國臺北聯絡代表處）">尚比亞&nbsp;(Zambia) - 尚比亞（兼轄館處：駐南非共和國臺北聯絡代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-164-01334-1.html" title="辛巴威&nbsp;(Zimbabwe) - 辛巴威（兼轄館處：駐南非共和國臺北聯絡代表處）">辛巴威&nbsp;(Zimbabwe) - 辛巴威（兼轄館處：駐南非共和國臺北聯絡代表處）</a></td></tr></tbody></table>   <table class="table-hover" summary="*">
+                                <thead><tr><th scope="col"><a id="Europe" title="歐洲地區"></a>歐洲地區</th></tr></thead>
+                                <tbody><tr><td data-title="國家名稱"><a id="Europe2" title="歐洲地區"></a><a href="/sp-foof-countrycp-02-155-efac2-1.html" title="阿爾巴尼亞&nbsp;(Albania) - 阿爾巴尼亞（兼轄館處：駐義大利臺北代表處）">阿爾巴尼亞&nbsp;(Albania) - 阿爾巴尼亞（兼轄館處：駐義大利臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-126-a55d3-1.html" title="安道爾侯國&nbsp;(Andorra) - 安道爾侯國（兼轄館處：駐法國臺北代表處）">安道爾侯國&nbsp;(Andorra) - 安道爾侯國（兼轄館處：駐法國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-54-b0087-1.html" title="奧地利&nbsp;(Austria) - 駐奧地利臺北經濟文化代表處">奧地利&nbsp;(Austria) - 駐奧地利臺北經濟文化代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-56-1f534-1.html" title="比利時&nbsp;(Belgium) - 駐歐盟兼駐比利時臺北代表處">比利時&nbsp;(Belgium) - 駐歐盟兼駐比利時臺北代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-201-34a82-1.html" title="波士尼亞與赫塞哥維納&nbsp;(Bosnia) - 波士尼亞與赫塞哥維納（兼轄館處：駐匈牙利臺北代表處）">波士尼亞與赫塞哥維納&nbsp;(Bosnia) - 波士尼亞與赫塞哥維納（兼轄館處：駐匈牙利臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-253-cd8a6-1.html" title="保加利亞&nbsp;(Bulgaria) - 保加利亞（兼轄館處：駐希臘臺北代表處）">保加利亞&nbsp;(Bulgaria) - 保加利亞（兼轄館處：駐希臘臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-151-73607-1.html" title="克羅埃西亞&nbsp;(Croatia) - 克羅埃西亞（兼轄館處：駐奧地利臺北經濟文化代表處）">克羅埃西亞&nbsp;(Croatia) - 克羅埃西亞（兼轄館處：駐奧地利臺北經濟文化代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-252-ea841-1.html" title="賽普勒斯&nbsp;(Cyprus) - 賽普勒斯（兼轄館處：駐希臘臺北代表處(南賽普勒斯)，駐安卡拉臺北經濟文化代表團/駐土耳其代表處(北賽普勒斯)）">賽普勒斯&nbsp;(Cyprus) - 賽普勒斯（兼轄館處：駐希臘臺北代表處(南賽普勒斯)，駐安卡拉臺北經濟文化代表團/駐土耳其代表處(北賽普勒斯)）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-55-97d44-1.html" title="捷克&nbsp;(Czech) - 駐捷克臺北經濟文化辦事處">捷克&nbsp;(Czech) - 駐捷克臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-64-199b0-1.html" title="丹麥&nbsp;(Denmark) - 駐丹麥臺北代表處">丹麥&nbsp;(Denmark) - 駐丹麥臺北代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-227-cf8ce-1.html" title="愛沙尼亞&nbsp;(Estonia) - 愛沙尼亞（兼轄館處：駐拉脫維亞臺北代表團）">愛沙尼亞&nbsp;(Estonia) - 愛沙尼亞（兼轄館處：駐拉脫維亞臺北代表團）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-66-e0f12-1.html" title="芬蘭&nbsp;(Finland) - 駐芬蘭臺北代表處">芬蘭&nbsp;(Finland) - 駐芬蘭臺北代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-63-4a56f-1.html" title="法國&nbsp;(French) - 駐法國臺北代表處">法國&nbsp;(French) - 駐法國臺北代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-73-c9bc1-1.html" title="德國&nbsp;(Germany) - 駐德國臺北代表處">德國&nbsp;(Germany) - 駐德國臺北代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-281-4373b-1.html" title="德國-法蘭克福&nbsp;(Germany-Frankfurt) - 駐德國臺北代表處法蘭克福辦事處">德國-法蘭克福&nbsp;(Germany-Frankfurt) - 駐德國臺北代表處法蘭克福辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-74-50ba0-1.html" title="德國-漢堡&nbsp;(Germany-Hamburg) - 駐德國臺北代表處漢堡辦事處">德國-漢堡&nbsp;(Germany-Hamburg) - 駐德國臺北代表處漢堡辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-76-f402e-1.html" title="德國-慕尼黑&nbsp;(Germany-Munich) - 駐德國臺北代表處慕尼黑辦事處">德國-慕尼黑&nbsp;(Germany-Munich) - 駐德國臺北代表處慕尼黑辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-61-21d56-1.html" title="希臘&nbsp;(Greece) - 駐希臘臺北代表處">希臘&nbsp;(Greece) - 駐希臘臺北代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-52-60490-1.html" title="教廷&nbsp;(Holy See) - 駐教廷大使館">教廷&nbsp;(Holy See) - 駐教廷大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-77-2fc2d-1.html" title="匈牙利&nbsp;(Hungary) - 駐匈牙利臺北代表處">匈牙利&nbsp;(Hungary) - 駐匈牙利臺北代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-215-b2780-1.html" title="冰島&nbsp;(Iceland) - 冰島（兼轄館處：駐丹麥代表處）">冰島&nbsp;(Iceland) - 冰島（兼轄館處：駐丹麥代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-60-a36fa-1.html" title="愛爾蘭&nbsp;(Ireland) - 駐愛爾蘭臺北代表處">愛爾蘭&nbsp;(Ireland) - 駐愛爾蘭臺北代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-53-ca74a-1.html" title="義大利&nbsp;(Italia) - 駐義大利臺北代表處">義大利&nbsp;(Italia) - 駐義大利臺北代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-204-4dec2-1.html" title="科索沃&nbsp;(Kosovo) - 科索沃（兼轄館處：駐匈牙利臺北代表處）">科索沃&nbsp;(Kosovo) - 科索沃（兼轄館處：駐匈牙利臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-68-8b0af-1.html" title="拉脫維亞&nbsp;(Latvia) - 駐拉脫維亞臺北代表團">拉脫維亞&nbsp;(Latvia) - 駐拉脫維亞臺北代表團</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-154-17ab3-1.html" title="列支敦斯登&nbsp;(Liechtenstein) - 列支敦斯登（兼轄館處：駐瑞士臺北文化經濟代表團）">列支敦斯登&nbsp;(Liechtenstein) - 列支敦斯登（兼轄館處：駐瑞士臺北文化經濟代表團）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-228-e04d3-1.html" title="立陶宛&nbsp;(Lithuania) - 立陶宛（兼轄館處：駐拉脫維亞臺北代表團）">立陶宛&nbsp;(Lithuania) - 立陶宛（兼轄館處：駐拉脫維亞臺北代表團）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-150-81a71-1.html" title="盧森堡&nbsp;(Luxembourg) - 盧森堡（兼轄館處：駐歐盟兼駐比利時臺北代表處）">盧森堡&nbsp;(Luxembourg) - 盧森堡（兼轄館處：駐歐盟兼駐比利時臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-157-c2416-1.html" title="馬其頓&nbsp;(Macedonia) - 馬其頓（兼轄館處：駐義大利臺北代表處）">馬其頓&nbsp;(Macedonia) - 馬其頓（兼轄館處：駐義大利臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-158-c65c0-1.html" title="馬爾他&nbsp;(Malta) - 馬爾他（兼轄館處：駐義大利臺北代表處）">馬爾他&nbsp;(Malta) - 馬爾他（兼轄館處：駐義大利臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-130-c2ed3-1.html" title="摩納哥&nbsp;(Monaco) - 摩納哥（兼轄館處：駐法國臺北代表處）">摩納哥&nbsp;(Monaco) - 摩納哥（兼轄館處：駐法國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-203-b44bd-1.html" title="蒙特內哥羅&nbsp;(Montenegro) - 蒙特內哥羅（兼轄館處：駐匈牙利臺北代表處）">蒙特內哥羅&nbsp;(Montenegro) - 蒙特內哥羅（兼轄館處：駐匈牙利臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-57-0527d-1.html" title="荷蘭&nbsp;(Netherlands) - 駐荷蘭臺北代表處">荷蘭&nbsp;(Netherlands) - 駐荷蘭臺北代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-65-81a85-1.html" title="挪威&nbsp;(Norway) - 挪威（兼轄館處：駐瑞典臺北代表團）">挪威&nbsp;(Norway) - 挪威（兼轄館處：駐瑞典臺北代表團）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-62-aa8d5-1.html" title="波蘭&nbsp;(Poland) - 駐波蘭臺北經濟文化辦事處">波蘭&nbsp;(Poland) - 駐波蘭臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-70-71d1b-1.html" title="葡萄牙&nbsp;(Portugal) - 駐葡萄牙臺北經濟文化中心">葡萄牙&nbsp;(Portugal) - 駐葡萄牙臺北經濟文化中心</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-243-dff1b-1.html" title="羅馬尼亞&nbsp;(Romania) - 羅馬尼亞（兼轄館處：駐斯洛伐克臺北代表處，駐匈牙利臺北代表處）">羅馬尼亞&nbsp;(Romania) - 羅馬尼亞（兼轄館處：駐斯洛伐克臺北代表處，駐匈牙利臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-156-f5318-1.html" title="聖馬利諾&nbsp;(San Marino) - 聖馬利諾（兼轄館處：駐義大利臺北代表處）">聖馬利諾&nbsp;(San Marino) - 聖馬利諾（兼轄館處：駐義大利臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-202-6687c-1.html" title="塞爾維亞&nbsp;(Serbia) - 塞爾維亞（兼轄館處：駐匈牙利臺北代表處）">塞爾維亞&nbsp;(Serbia) - 塞爾維亞（兼轄館處：駐匈牙利臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-78-98b69-1.html" title="斯洛伐克&nbsp;(Slovak) - 駐斯洛伐克臺北代表處">斯洛伐克&nbsp;(Slovak) - 駐斯洛伐克臺北代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-152-61175-1.html" title="斯洛維尼亞&nbsp;(Slovenia) - 斯洛維尼亞（兼轄館處：駐奧地利臺北經濟文化代表處）">斯洛維尼亞&nbsp;(Slovenia) - 斯洛維尼亞（兼轄館處：駐奧地利臺北經濟文化代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-69-547ce-1.html" title="西班牙&nbsp;(Spain) - 駐西班牙臺北經濟文化辦事處">西班牙&nbsp;(Spain) - 駐西班牙臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-67-641bb-1.html" title="瑞典&nbsp;(Sweden) - 駐瑞典臺北代表團">瑞典&nbsp;(Sweden) - 駐瑞典臺北代表團</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-71-9a9e2-1.html" title="瑞士&nbsp;(Switzerland) - 駐瑞士臺北文化經濟代表團">瑞士&nbsp;(Switzerland) - 駐瑞士臺北文化經濟代表團</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-72-d01b5-1.html" title="瑞士-日內瓦&nbsp;(Switzerland-Geneva) - 駐瑞士臺北文化經濟代表團日內瓦辦事處">瑞士-日內瓦&nbsp;(Switzerland-Geneva) - 駐瑞士臺北文化經濟代表團日內瓦辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-58-7c808-1.html" title="英國&nbsp;(UK) - 駐英國臺北代表處">英國&nbsp;(UK) - 駐英國臺北代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-59-78aaf-1.html" title="英國-愛丁堡&nbsp;(UK-Edinburgh) - 駐英國臺北代表處愛丁堡辦事處">英國-愛丁堡&nbsp;(UK-Edinburgh) - 駐英國臺北代表處愛丁堡辦事處</a></td></tr></tbody></table>  <table class="table-hover" summary="*">
+                                    <thead><tr><th scope="col"><a id="NorthAmerica" title="北美地區"></a>北美地區</th></tr></thead>
+                                    <tbody><tr><td data-title="國家名稱"><a id="NorthAmerica2" title="北美地區"></a><a href="/sp-foof-countrycp-02-115-e4659-1.html" title="加拿大&nbsp;(Canada) - 駐加拿大臺北經濟文化代表處">加拿大&nbsp;(Canada) - 駐加拿大臺北經濟文化代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-113-62455-1.html" title="加拿大-多倫多&nbsp;(Canada-Toronto) - 駐多倫多臺北經濟文化辦事處">加拿大-多倫多&nbsp;(Canada-Toronto) - 駐多倫多臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-114-68ecc-1.html" title="加拿大-溫哥華&nbsp;(Canada-Vancouver) - 駐溫哥華臺北經濟文化辦事處">加拿大-溫哥華&nbsp;(Canada-Vancouver) - 駐溫哥華臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-136-2b4e0-1.html" title="聖皮埃與密克隆群島&nbsp;(Saint Pierre and Miquelon) - 聖皮埃與密克隆群島（兼轄館處：駐加拿大臺北經濟文化代表處）">聖皮埃與密克隆群島&nbsp;(Saint Pierre and Miquelon) - 聖皮埃與密克隆群島（兼轄館處：駐加拿大臺北經濟文化代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-100-57cb3-1.html" title="美國&nbsp;(United States of America) - 駐美國臺北經濟文化代表處">美國&nbsp;(United States of America) - 駐美國臺北經濟文化代表處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-101-31730-1.html" title="美國-亞特蘭大&nbsp;(United States of America-Atlanta) - 駐亞特蘭大臺北經濟文化辦事處">美國-亞特蘭大&nbsp;(United States of America-Atlanta) - 駐亞特蘭大臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-102-4dd30-1.html" title="美國-波士頓&nbsp;(United States of America-Boston) - 駐波士頓臺北經濟文化辦事處">美國-波士頓&nbsp;(United States of America-Boston) - 駐波士頓臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-103-fc929-1.html" title="美國-芝加哥&nbsp;(United States of America-Chicago) - 駐芝加哥臺北經濟文化辦事處">美國-芝加哥&nbsp;(United States of America-Chicago) - 駐芝加哥臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-106-db31a-1.html" title="美國-丹佛&nbsp;(United States of America-Denver) - 駐丹佛臺北經濟文化辦事處">美國-丹佛&nbsp;(United States of America-Denver) - 駐丹佛臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-105-54d65-1.html" title="美國-檀香山&nbsp;(United States of America-Honolulu) - 駐檀香山臺北經濟文化辦事處">美國-檀香山&nbsp;(United States of America-Honolulu) - 駐檀香山臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-104-64869-1.html" title="美國-休士頓&nbsp;(United States of America-Houston) - 駐休士頓臺北經濟文化辦事處">美國-休士頓&nbsp;(United States of America-Houston) - 駐休士頓臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-107-79acc-1.html" title="美國-洛杉磯&nbsp;(United States of America-Los Angeles) - 駐洛杉磯臺北經濟文化辦事處">美國-洛杉磯&nbsp;(United States of America-Los Angeles) - 駐洛杉磯臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-111-59b86-1.html" title="美國-邁阿密&nbsp;(United States of America-Miami) - 駐邁阿密臺北經濟文化辦事處">美國-邁阿密&nbsp;(United States of America-Miami) - 駐邁阿密臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-108-09ef5-1.html" title="美國-紐約&nbsp;(United States of America-New York) - 駐紐約臺北經濟文化辦事處">美國-紐約&nbsp;(United States of America-New York) - 駐紐約臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-109-8dbb9-1.html" title="美國-舊金山&nbsp;(United States of America-San Francisco) - 駐舊金山臺北經濟文化辦事處">美國-舊金山&nbsp;(United States of America-San Francisco) - 駐舊金山臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-110-eece7-1.html" title="美國-西雅圖&nbsp;(United States of America-Seattle) - 駐西雅圖臺北經濟文化辦事處">美國-西雅圖&nbsp;(United States of America-Seattle) - 駐西雅圖臺北經濟文化辦事處</a></td></tr></tbody></table>  <table class="table-hover" summary="*">
+                                        <thead><tr><th scope="col"><a id="LatinAmerica" title="拉丁美洲暨加勒比海地區"></a>拉丁美洲暨加勒比海地區</th></tr></thead>
+                                        <tbody><tr><td data-title="國家名稱"><a id="LatinAmerica2" title="拉丁美洲暨加勒比海地區"></a><a href="/sp-foof-countrycp-02-219-9b440-1.html" title="安圭拉-安圭拉(英國海外領地)&nbsp;(Anguilla-) - 安圭拉（兼轄館處：駐聖克里斯多福及尼維斯大使館）">安圭拉-安圭拉(英國海外領地)&nbsp;(Anguilla-) - 安圭拉（兼轄館處：駐聖克里斯多福及尼維斯大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-216-16335-1.html" title="安地卡及巴布達&nbsp;(Antigua and Barbuda) - 安地卡及巴布達（兼轄館處：駐聖克里斯多福及尼維斯大使館）">安地卡及巴布達&nbsp;(Antigua and Barbuda) - 安地卡及巴布達（兼轄館處：駐聖克里斯多福及尼維斯大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-92-623d9-1.html" title="阿根廷&nbsp;(Argentine) - 駐阿根廷臺北商務文化辦事處">阿根廷&nbsp;(Argentine) - 駐阿根廷臺北商務文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-254-72f34-1.html" title="阿魯巴&nbsp;(Aruba) - 阿魯巴（兼轄館處：駐英國臺北代表處，駐聖克里斯多福及尼維斯大使館）">阿魯巴&nbsp;(Aruba) - 阿魯巴（兼轄館處：駐英國臺北代表處，駐聖克里斯多福及尼維斯大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-180-34bb4-1.html" title="巴哈馬&nbsp;(Bahamas) - 巴哈馬（兼轄館處：駐邁阿密臺北經濟文化辦事處）">巴哈馬&nbsp;(Bahamas) - 巴哈馬（兼轄館處：駐邁阿密臺北經濟文化辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-229-31855-1.html" title="巴貝多&nbsp;(Barbados) - 巴貝多（兼轄館處：駐聖露西亞大使館）">巴貝多&nbsp;(Barbados) - 巴貝多（兼轄館處：駐聖露西亞大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-79-3c120-1.html" title="貝里斯&nbsp;(Belize) - 駐貝里斯大使館">貝里斯&nbsp;(Belize) - 駐貝里斯大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-181-3bbfe-1.html" title="百慕達&nbsp;(Bermuda) - 百慕達（兼轄館處：駐邁阿密臺北經濟文化辦事處）">百慕達&nbsp;(Bermuda) - 百慕達（兼轄館處：駐邁阿密臺北經濟文化辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-196-8ebb7-1.html" title="玻利維亞&nbsp;(Bolivia) - 玻利維亞（兼轄館處：駐秘魯台北經濟文化辦事處）">玻利維亞&nbsp;(Bolivia) - 玻利維亞（兼轄館處：駐秘魯台北經濟文化辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-93-4f28f-1.html" title="巴西&nbsp;(Brazil) - 駐巴西臺北經濟文化辦事處">巴西&nbsp;(Brazil) - 駐巴西臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-94-c0257-1.html" title="巴西-聖保羅&nbsp;(Brazil-Sao Paulo) - 駐聖保羅臺北經濟文化辦事處">巴西-聖保羅&nbsp;(Brazil-Sao Paulo) - 駐聖保羅臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-221-89ee6-1.html" title="開曼群島&nbsp;(Cayman Islands) - 開曼群島（兼轄館處：駐英國臺北代表處）">開曼群島&nbsp;(Cayman Islands) - 開曼群島（兼轄館處：駐英國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-95-fd397-1.html" title="智利&nbsp;(Chile) - 駐智利臺北經濟文化辦事處">智利&nbsp;(Chile) - 駐智利臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-96-f95eb-1.html" title="哥倫比亞&nbsp;(Colombia) - 駐哥倫比亞臺北商務辦事處">哥倫比亞&nbsp;(Colombia) - 駐哥倫比亞臺北商務辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-153-d7ffa-1.html" title="哥斯大黎加&nbsp;(Costa Rica) - 哥斯大黎加（兼轄館處：駐尼加拉瓜共和國大使館）">哥斯大黎加&nbsp;(Costa Rica) - 哥斯大黎加（兼轄館處：駐尼加拉瓜共和國大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-200-b9999-1.html" title="古巴共和國&nbsp;(Cuba) - 古巴共和國（兼轄館處：駐多明尼加共和國大使館）">古巴共和國&nbsp;(Cuba) - 古巴共和國（兼轄館處：駐多明尼加共和國大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-256-61b52-1.html" title="古拉索&nbsp;(Curacao) - 古拉索（兼轄館處：駐聖文森國大使館）">古拉索&nbsp;(Curacao) - 古拉索（兼轄館處：駐聖文森國大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-230-498ea-1.html" title="多米尼克&nbsp;(Dominica) - 多米尼克（兼轄館處：駐聖露西亞大使館）">多米尼克&nbsp;(Dominica) - 多米尼克（兼轄館處：駐聖露西亞大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-91-bf4b3-1.html" title="多明尼加&nbsp;(Dominican) - 駐多明尼加共和國大使館">多明尼加&nbsp;(Dominican) - 駐多明尼加共和國大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-97-55cdc-1.html" title="厄瓜多&nbsp;(Ecuador) - 臺北駐厄瓜多商務處">厄瓜多&nbsp;(Ecuador) - 臺北駐厄瓜多商務處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-90-f8499-1.html" title="薩爾瓦多共和國&nbsp;(El Salvador) - 駐薩爾瓦多共和國大使館">薩爾瓦多共和國&nbsp;(El Salvador) - 駐薩爾瓦多共和國大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-226-52b7e-1.html" title="福克蘭群島&nbsp;(Falkland Islands (the) [Malvinas]) - 福克蘭群島（兼轄館處：駐智利台北經濟文化辦事處，駐英國臺北代表處）">福克蘭群島&nbsp;(Falkland Islands (the) [Malvinas]) - 福克蘭群島（兼轄館處：駐智利台北經濟文化辦事處，駐英國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-257-16136-1.html" title="法屬圭亞那&nbsp;(French Guiana) - 法屬圭亞那（兼轄館處：駐聖露西亞大使館）">法屬圭亞那&nbsp;(French Guiana) - 法屬圭亞那（兼轄館處：駐聖露西亞大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-260-6799d-1.html" title="格瑞那達&nbsp;(Grenada) - 格瑞那達（兼轄館處：駐聖文森國大使館）">格瑞那達&nbsp;(Grenada) - 格瑞那達（兼轄館處：駐聖文森國大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-80-8d3d1-1.html" title="瓜地馬拉共和國&nbsp;(Guatemala) - 駐瓜地馬拉大使館">瓜地馬拉共和國&nbsp;(Guatemala) - 駐瓜地馬拉大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-261-69055-1.html" title="蓋亞那共和國(圭亞那)&nbsp;(Guyana) - 蓋亞那共和國(圭亞那)（兼轄館處：駐聖克里斯多福及尼維斯大使館）">蓋亞那共和國(圭亞那)&nbsp;(Guyana) - 蓋亞那共和國(圭亞那)（兼轄館處：駐聖克里斯多福及尼維斯大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-86-cc79f-1.html" title="海地共和國&nbsp;(Haiti) - 駐海地共和國大使館">海地共和國&nbsp;(Haiti) - 駐海地共和國大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-82-f35fa-1.html" title="宏都拉斯共和國&nbsp;(Honduras) - 駐宏都拉斯共和國大使館">宏都拉斯共和國&nbsp;(Honduras) - 駐宏都拉斯共和國大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-83-1c52f-1.html" title="宏都拉斯共和國-汕埠&nbsp;(Honduras-San Pedro Sula) - 駐汕埠總領事館">宏都拉斯共和國-汕埠&nbsp;(Honduras-San Pedro Sula) - 駐汕埠總領事館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-217-1495f-1.html" title="牙買加&nbsp;(Jamaica) - 牙買加（兼轄館處：駐尼加拉瓜共和國大使館）">牙買加&nbsp;(Jamaica) - 牙買加（兼轄館處：駐尼加拉瓜共和國大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-274-cb02a-1.html" title="馬丁尼克&nbsp;(Martinique) - 馬丁尼克（兼轄館處：駐聖克里斯多福及尼維斯大使館）">馬丁尼克&nbsp;(Martinique) - 馬丁尼克（兼轄館處：駐聖克里斯多福及尼維斯大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-98-dc6ec-1.html" title="墨西哥&nbsp;(Mexican) - 駐墨西哥臺北經濟文化辦事處">墨西哥&nbsp;(Mexican) - 駐墨西哥臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-220-ff30d-1.html" title="蒙哲臘&nbsp;(Montserrat) - 蒙哲臘（兼轄館處：駐聖克里斯多福及尼維斯大使館）">蒙哲臘&nbsp;(Montserrat) - 蒙哲臘（兼轄館處：駐聖克里斯多福及尼維斯大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-89-e2f3b-1.html" title="尼加拉瓜共和國&nbsp;(Nicaragua) - 駐尼加拉瓜共和國大使館">尼加拉瓜共和國&nbsp;(Nicaragua) - 駐尼加拉瓜共和國大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-271-5ba45-1.html" title="巴拿馬&nbsp;(Panama) - 巴拿馬（兼轄館處：駐尼加拉瓜共和國大使館）">巴拿馬&nbsp;(Panama) - 巴拿馬（兼轄館處：駐尼加拉瓜共和國大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-87-85eee-1.html" title="巴拉圭共和國&nbsp;(Paraguay) - 駐巴拉圭共和國大使館">巴拉圭共和國&nbsp;(Paraguay) - 駐巴拉圭共和國大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-88-241e9-1.html" title="巴拉圭共和國-東方市&nbsp;(Paraguay-Ciudad del Este) - 駐東方市總領事館">巴拉圭共和國-東方市&nbsp;(Paraguay-Ciudad del Este) - 駐東方市總領事館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-99-6a2e2-1.html" title="秘魯&nbsp;(Peru) - 駐秘魯臺北經濟文化辦事處">秘魯&nbsp;(Peru) - 駐秘魯臺北經濟文化辦事處</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-272-b666e-1.html" title="波多黎各&nbsp;(Puerto Rico) - 波多黎各（兼轄館處：駐邁阿密臺北經濟文化辦事處）">波多黎各&nbsp;(Puerto Rico) - 波多黎各（兼轄館處：駐邁阿密臺北經濟文化辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-224-4b2b7-1.html" title="聖巴瑟米-法屬&nbsp;(Saint Barthelemy-) - 聖巴瑟米（兼轄館處：駐聖克里斯多福及尼維斯大使館）">聖巴瑟米-法屬&nbsp;(Saint Barthelemy-) - 聖巴瑟米（兼轄館處：駐聖克里斯多福及尼維斯大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-84-19903-1.html" title="聖克里斯多福及尼維斯&nbsp;(Saint Christopher and Nevis) - 駐聖克里斯多福及尼維斯大使館">聖克里斯多福及尼維斯&nbsp;(Saint Christopher and Nevis) - 駐聖克里斯多福及尼維斯大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-81-e5551-1.html" title="聖露西亞&nbsp;(Saint Lucia) - 駐聖露西亞大使館">聖露西亞&nbsp;(Saint Lucia) - 駐聖露西亞大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-225-e9813-1.html" title="聖馬丁-法荷共管&nbsp;(Saint Martin (French part)-) - 聖馬丁（兼轄館處：駐聖克里斯多福及尼維斯大使館）">聖馬丁-法荷共管&nbsp;(Saint Martin (French part)-) - 聖馬丁（兼轄館處：駐聖克里斯多福及尼維斯大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-85-ae5b8-1.html" title="聖文森國&nbsp;(Saint Vincent and the Grenadines) - 駐聖文森國大使館">聖文森國&nbsp;(Saint Vincent and the Grenadines) - 駐聖文森國大使館</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-259-b111c-1.html" title="蘇利南&nbsp;(Suriname) - 蘇利南（兼轄館處：駐聖文森國大使館）">蘇利南&nbsp;(Suriname) - 蘇利南（兼轄館處：駐聖文森國大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-258-c51de-1.html" title="千里達及托巴哥&nbsp;(Trinidad and Tobago) - 千里達及托巴哥（兼轄館處：駐阿根廷臺北商務文化辦事處）">千里達及托巴哥&nbsp;(Trinidad and Tobago) - 千里達及托巴哥（兼轄館處：駐阿根廷臺北商務文化辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-273-8fcd3-1.html" title="英屬土克凱可群島&nbsp;(Turks and Caicos Islands) - 英屬土克凱可群島（兼轄館處：駐邁阿密臺北經濟文化辦事處，駐英國臺北代表處）">英屬土克凱可群島&nbsp;(Turks and Caicos Islands) - 英屬土克凱可群島（兼轄館處：駐邁阿密臺北經濟文化辦事處，駐英國臺北代表處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-186-b659f-1.html" title="烏拉圭&nbsp;(Uruguay) - 烏拉圭（兼轄館處：駐阿根廷臺北商務文化辦事處，駐哥倫比亞台北商務辦事處）">烏拉圭&nbsp;(Uruguay) - 烏拉圭（兼轄館處：駐阿根廷臺北商務文化辦事處，駐哥倫比亞台北商務辦事處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-205-20209-1.html" title="委內瑞拉&nbsp;(Venezuela) - 委內瑞拉（兼轄館處：駐哥倫比亞臺北商務辦事處，臺北駐厄瓜多商務處）">委內瑞拉&nbsp;(Venezuela) - 委內瑞拉（兼轄館處：駐哥倫比亞臺北商務辦事處，臺北駐厄瓜多商務處）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-218-f0b9d-1.html" title="英屬維京群島&nbsp;(Virgin Islands (British)) - 英屬維京群島（兼轄館處：駐聖克里斯多福及尼維斯大使館）">英屬維京群島&nbsp;(Virgin Islands (British)) - 英屬維京群島（兼轄館處：駐聖克里斯多福及尼維斯大使館）</a></td></tr><tr><td data-title="國家名稱"><a href="/sp-foof-countrycp-02-282-7a019-1.html" title="美屬維京群島&nbsp;(Virgin Islands (U.S.)) - 美屬維京群島（兼轄館處：駐邁阿密臺北經濟文化辦事處）">美屬維京群島&nbsp;(Virgin Islands (U.S.)) - 美屬維京群島（兼轄館處：駐邁阿密臺北經濟文化辦事處）</a></td></tr></tbody></table>
+                                    </section>
+                                    <!--list start -->
+                                    <section class="listTb">
+                                        <table summary="*">
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="col">發布/更新日期</th>
+                                                    <td data-title="發布/更新日期">2017/06/04 上午 11:49:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="col">警示等級</th>
+                                                    <td data-title="警示等級">
+                                                        <!--red：不宜前往，宜盡速離境。yellow： 注意旅遊安全並檢討應否前往。orange：避免非必要旅行。gray：提醒注意。-->
+                                                        <span class="red"></span>橙色警示-高度小心,避免非必要旅行</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="col">國家地區</th>
+                                                        <td data-title="國家地區">泰國 - 泰、柬邊境爭議地區(帕威寒國家公園)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="col">國家地區英文名稱</th>
+                                                        <td data-title="國家地區英文名稱">Thailand -Disputed area around Preah Vihear</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="col">警示說明</th>
+                                                        <td data-title="警示說明">
+                                                            <ol>
+                                                                <li>國際法庭於2013年11月11日就泰、柬兩國帕威寒古神廟(Preah Viharn)周邊領土爭議案宣判，澄清該法庭1962年判決該廟遺址屬於柬埔寨，惟否決柬方所提出以殖民時期地圖劃定泰柬邊界之要求，確認鄰近該神廟領土仍屬泰國，並要求泰國檢討1962年判決之邊界，以及泰、柬兩國共同保護列名世界文化遺產之古蹟。泰國政府對此判決表示滿意並願與柬國協商存在爭議邊界之界線問題，邊境爭議地區之緊張情勢已趨緩和。</li>
+                                                                <li>位於泰國與柬埔寨邊境爭議地區之帕威寒神廟於2011年2月發生多次泰、柬武力衝突。嗣於2011年4、5月間泰、柬兩國又在帕威寒神廟以西150公里，即泰國素林府(Surin)帕農東拉區(Phanom Dong Rak)及柬國奧多棉吉省(Oddar Meancheay)邊境，鄰近Ta Moan及Ta Krabey兩座神廟周邊地區發生軍事武裝衝突，造成雙方人員傷亡及當地上萬民眾撤離。</li>
+                                                                <li>帕威寒神廟(在柬國稱為帕威夏神廟 Preah Vihear)所在之泰國帕威寒山國家公園雖已恢復開放觀光，惟該神廟及周邊仍無法進入，僅能以望遠鏡遠觀。帕威寒神廟面朝泰國，觀光客多需自泰國境內搭機至烏汶(Ubon Ratchathani)後，搭車經四色菊(Srisaket) 轉專車前往該國家公園，因該地區仍屬「軍事管制區」，非隨時可進入，出發前請先瞭解當日是否開放，而該神廟背朝柬國，附近懸崖峭壁及荒野，人跡罕至，目前自柬境尚無法赴該神廟觀光。</li>
+                                                                <li>鑒於泰柬邊境衝突雖已暫趨緩和，惟柬泰邊境爭議地區之局勢仍未明朗，基於保護國人安全考量，本處仍提醒赴泰、柬商旅國人應注意自身安全，隨時注意情勢發展。倘遇緊急狀況，請即與我駐泰國代表處聯繫。駐泰國代表處緊急聯絡電話：(66)81-6664006、(66)81-6664008；泰國境內直撥：(081)6664006、6664008。</li>
+                                                            </ol>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </section>
+                                        <!--list end -->
+                                        <section class="listTb2">
+                                            <table summary="*">
+                                                <tbody><tr><th width="20%" scope="col">駐外館處英（外）文名稱</th><td data-title="駐外館處英（外）文名稱">Taipei Economic and Cultural Office in Australia </td></tr><tr><th width="20%" scope="col">駐外館處中文名稱</th><td data-title="駐外館處中文名稱">駐澳大利亞代表處</td></tr><tr><th width="20%" scope="col">館址</th><td data-title="館址">辦公室: 8 /40 Blackall St., Barton ACT 2600;Ground Floor, 53 Blackall St., Barton ACT 2600(領務組)</td></tr><tr><th width="20%" scope="col">領務申辦時間</th><td data-title="領務申辦時間">週一 ~ 週五： 09：00~17：00</td></tr><tr><th width="20%" scope="col">領務轄區</th><td data-title="領務轄區">澳州首都特區（Australian Capital Territory, ACT）及西澳（州）地區之領務及僑務則由代表處直接兼理。</td></tr><tr><th width="20%" scope="col">電子郵件(可多筆)</th><td data-title="電子郵件(可多筆)">tecoaus@gmail.com；consular.tecocbr@gmail.com（領務組）</td></tr><tr><th width="20%" scope="col">緊急聯絡電話(可多筆) 境外撥打/境內直撥</th><td data-title="緊急聯絡電話(可多筆) 境外撥打/境內直撥">行動電話：61 -418-284-531<br/>澳洲境內直撥：0418-284-531</td></tr><tr><th width="20%" scope="col">緊急聯絡電話(英文)</th><td data-title="緊急聯絡電話(英文)">行動電話：61 -418-284-531 澳洲境內直撥：0418-284-531</td></tr><tr><th width="20%" scope="col">傳真(可多筆) 境外撥打/境內直撥</th><td data-title="傳真(可多筆) 境外撥打/境內直撥">(61-2) 62733228；(61-2) 62731147 (領務組) </td></tr><tr><th width="20%" scope="col">駐館休假行事曆</th><td data-title="駐館休假行事曆"><a href="http://www.mofa.gov.tw/CountryInfo.aspx?CASN=0984A85A3A9A6677&n=4043244986E87475&sms=26470E539B6FA395&s=C0A9CFFC3BAF2101">http://www.mofa.gov.tw/CountryInfo.aspx?CASN=0984A85A3A9A6677&n=4043244986E87475&sms=26470E539B6FA395&s=C0A9CFFC3BAF2101
+                                                </a></td></tr><tr><th width="20%" scope="col">主管(中文)</th><td data-title="主管(中文)">常以立</td></tr><tr><th width="20%" scope="col">主管(英文)</th><td data-title="主管(英文)">Elliott Y.L. Charng </td></tr><tr><th width="20%" scope="col">職稱(中文)</th><td data-title="職稱(中文)">代表</td></tr><tr><th width="20%" scope="col">職稱(英文)</th><td data-title="職稱(英文)">Representative </td></tr><tr><th width="20%" scope="col">信箱號碼</th><td data-title="信箱號碼"> 8 /40 Blackall St., Barton ACT 2600;Ground Floor, 53 Blackall St., Barton ACT 2600(領務組)</td></tr><tr><th width="20%" scope="col">網址</th><td data-title="網址">http://www.roc-taiwan.org/au/</td></tr><tr><th width="20%" scope="col">街道圖</th><td data-title="街道圖">                                                                                        
+                                                    <div class="iframe-rwd">
+                                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=-35.3074350,149.1369666&hl=es;z=14&output=embed"></iframe>
+                                                    </div></td></tr><tr><th width="20%" scope="col">電話(可多筆) 境外撥打/境內直撥</th><td data-title="電話(可多筆) 境外撥打/境內直撥">電話：(61-2) 61202000；(61-2) 61201030 (領務組) <br/></td></tr><tr><th width="20%" scope="col">服務時間</th><td data-title="服務時間">週一 ~ 週五： 09：00~17：00</td></tr><tr><th width="20%" scope="col">與我國時差</th><td data-title="與我國時差">中部標準時間：南澳、北領地（非日光節約時間期間比臺灣快1.5小時）<br/>西部標準時間：西澳（與臺灣相同）</td></tr></tbody>
+                                                </table>
+                                            </section>
+
+                                            <!--quickLink start -->
+                                            <div class="quickLink">
+                                                <ul>
+                                                    <li><a href="#top" class="gotop" title="回頁首">回頁首</a></li>
+                                                    <li><a href="javascript:history.back();" class="back" title="回上一頁">回上一頁</a><noscript>當script無法執行時可按"alt + &larr;"鍵替代</noscript></li>
+                                                </ul>
+                                            </div>
+                                            <!--quickLink end -->
+                                        </section>
+                                        <!--country1 end --> 
+                                        <!--右欄資訊 end --> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--內頁 end --> 
+                    </div>
+                    <!-- 內容結束 -->
+                    <!-- fatfooter -->
+                    <div id="FatFooter">
+                        <input type="button" name="FatFooterBtn" id="FatFooterBtn" value="收合" class="btn pull-right FatFooterBtn">
+                        <nav>
+                            <ul>
+                                <li><a href="#" title="">護照</a>
+                                    <ul>
+                                        <li><a href="#" title="">第二層選單第二層選單
+                                        </a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" title="">簽證</a>
+                                    <ul>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" title="">文件證明</a>
+                                    <ul>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" title="">旅外安全</a>
+                                    <ul>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" title="">政府資訊公開</a>
+                                    <ul>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" title="">為民服務</a>
+                                    <ul>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" title="">亞太商旅卡</a>
+                                    <ul>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" title="">領務法規</a>
+                                    <ul>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" title="">性別主流化專區</a>
+                                    <ul>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" title="">關於本局</a>
+                                    <ul>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                        <li><a href="#" title="">第二層選單</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- footer -->
+                    <div id="footer">
+                        <div class="container">
+                            <div class="col-md-12 col-sm-12 col-xs-12">                        <div class="web20">
+                                <a href="#"><img src="images/youtube_256.png" alt="youtube"></a>
+                                <a href="#"><img src="images/facebook_256.png" alt="facebook"></a>
+                                <a href="#"><img src="images/mail-256.png" alt=""></a>
+                                <a href="#"><img src="images/RSS_256.png" alt="RSS"></a>
+                                <a href="#"><img src="images/line-256.png" alt="line"></a>
+                                <a href="#"><img src="images/flickr-256.png" alt="flickr"></a>
+                            </div>
+                        </div>
+            <!--
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="Epaper">
+                    <h2>訂閱/取消電子報</h2>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="sr-only">請輸入電子信箱</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="請輸入電子信箱">
+                        </div>
+                        <button type="submit" class="btn btn-default">送出</button>
+                    </form>
+                </div>
+            </div>
+        -->
+        <div class="col-md-8 col-sm-8 col-xs-12">
+            <div class="Footer_link">
+                <a href="#" title="政府網站資料開放宣告">政府網站資料開放宣告</a>
+                <a href="#" title="隱私權及資訊安全政策">隱私權及資訊安全政策</a>
+            </div>
+            <div class="Footer_info">
+                <p>
+                    本局地址：10051台北市濟南路1段2之2號3~5樓(中央聯合辦公大樓北棟)
+                    <br/>總機電話：02-23432888
+                    <br/> 聯絡我們：
+                    <a href="#">台北局本部</a><a href="#">桃園機場辦事處</a><a href="#">中部辦事處</a><a href="#">雲嘉南辦事處</a><a href="#">南部辦事處</a><a href="#">東部辦事處</a><a href="#">旅外求助管道</a>
+                    <br/>
+                    <span class="UpdateTime">更新日期 : 105-12-24</span>
+                    <span class="Counter">訪客人次 : 0123456</span>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="Footer_icon">
+                <a class="Accessible_icon" href="#" target="_blank"><img src="images/basic/accessibility.jpg" alt="無障礙2.0" class="img-responsive"></a>
+                <a class="Egov" href="http://www.gov.tw/" title=""><img src="images/basic/egov.png" alt="E政府" class="img-responsive"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="#" class="scrollToTop">回頁首</a>
+<script src="assets/js/jquery-1.11.2.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="assets/module/bootstrap-3.3.2/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.lazyload.min.js"></script>
+<!-- <script src="js/BS3JS.min.js"></script> -->
+<!-- slick  -->
+<script src="assets/module/slick/slick.js"></script>
+<!-- Sidebar選單 -->
+<script src="assets/js/bootstrap.offcanvas.js"></script>
+<!-- scrollUp-->
+<script src="assets/js/jquery.scrollUp.js"></script>
+<!-- jq-easing -->
+<script src="assets/js/jquery.easing.1.3.js"></script>
+<!-- 全部自訂檔 -->
+<script src="js/customize_scripts.js"></script>
+</body>
+
+</html>

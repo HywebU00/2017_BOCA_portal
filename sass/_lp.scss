@@ -175,7 +175,7 @@
                 tr{
                     display: block;
                     margin: 10px 0;
-                    border-top: 2px solid #444;
+                    border-bottom: 1px solid #999;
                     th{
                         display: none;
                     }
@@ -184,7 +184,7 @@
                         width: 100%;
                         margin: -1px 0 0 0;
                         position:relative;
-                        padding-left: 80px;
+                        padding-left: 10px;
                         &:nth-child(1) {
                             width: 100%;
                         }
@@ -195,9 +195,9 @@
                             content: attr(data-title) "：";
                             display: inline-block;
                             color: #888;
-                            position:absolute;
-                            width:70px;
-                            left: 5px;
+                            position:relative;
+                            width:auto;
+                            left: 0px;
 
                         }
                         &:empty {

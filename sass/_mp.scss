@@ -1285,6 +1285,19 @@ $_imgW:100%;
     padding: 0;
     text-align: center;
   }
+  h2{
+    border-bottom: 3px solid #DDD;
+    margin: 0 0 5px;
+    padding: 0;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.75em;
+    font-weight: bold;
+    &::before{
+      height: 0;
+    }
+
+  }
   .tabSet{
     position:relative;
     width: 100%;

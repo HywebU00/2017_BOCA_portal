@@ -7,7 +7,7 @@
     opacity: 1;
     margin: 0px;
     color: #fff;
-    font-size: 11px;
+    font-size: 1em;
     a {
         color: #fff;
     }
@@ -170,11 +170,12 @@ a.scrollToTop {
     transition: .3s ease-out;
     display: none;
     z-index: 99999999;
-    font-size: 0px;
+    font-size: 0;
 }
 a.scrollToTop:before {
-    font-size: 21px;
+    font-size: 1.35rem;
     width: 9px;
+
 }
 .scrollToTop:hover {
     background: url(../images/basic/top.png) no-repeat center top rgba(0, 0, 0, 0.8);
@@ -185,6 +186,16 @@ a.scrollToTop:before {
     padding: 20px 0;
     position: relative;
     h1 {
+        font-size: 1.687em;
+        color: $_primaryColor;
+        padding: 0px 0px 6px;
+        margin: 0 0 20px 0;
+        clear: both;
+        line-height: 140%;
+        border-bottom: 1px solid $_primaryColor;
+        font-weight: 700
+    }
+    h2 {
         font-size: 1.687em;
         color: $_primaryColor;
         padding: 0px 0px 6px;
@@ -610,7 +621,7 @@ a.scrollToTop:before {
     margin: 0 0 20px;
     border-bottom: 1px dotted #ddd;
     label {
-        font-size: 0px;
+        font-size: 0;
     }
     @media (max-width: 767px) {
         /*--手機--*/
@@ -791,7 +802,7 @@ a.scrollToTop:before {
     margin: 0px 5px 10px 5px;
     padding: 10px 15px;
     font-weight: 800;
-    font-size: 15px;
+    font-size: 1em;
     border: none;
     color: #0b5774 !important;
     border-radius: 3px;
@@ -801,15 +812,15 @@ a.scrollToTop:before {
 .page .pagination li a.prev,
 .page .pagination li a.next,
 .page .pagination li a.last,
-    {
+{
     font-size: 0;
 }
 .page .pagination li a.first:before,
 .page .pagination li a.prev:before,
 .page .pagination li a.next:before,
 .page .pagination li a.last:before,
-    {
-    font-size: 21px;
+{
+    font-size: 1.35rem;
     width: 9px;
 }
 .page .pagination li a:hover {

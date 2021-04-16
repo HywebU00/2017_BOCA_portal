@@ -41,14 +41,14 @@
  }
  h1 {
  	margin: .67em 0;
- 	font-size: 2em
+ 	font-size: 2em;
  }
  mark {
  	color: #000;
  	background: #ff0
  }
  small {
- 	font-size: 80%
+ 	font-size: 80%;
  }
  sub, sup {
  	position: relative;
@@ -776,12 +776,12 @@
  		box-sizing: border-box
  	}
  	html {
- 		font-size: 10px;
+ 		font-size: .875em;
  		-webkit-tap-highlight-color: rgba(0,0,0,0)
  	}
  	body {
  		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
- 		font-size: 14px;
+ 		font-size: 1em;
  		line-height: 1.42857143;
  		color: #333;
  		background-color: #fff
@@ -874,45 +874,45 @@
  		margin-bottom: 10px
  	}
  	h1 small, .h1 small, h2 small, .h2 small, h3 small, .h3 small, h1 .small, .h1 .small, h2 .small, .h2 .small, h3 .small, .h3 .small {
- 		font-size: 65%
+ 		font-size: 65%;
  	}
  	h4, .h4, h5, .h5, h6, .h6 {
  		margin-top: 10px;
  		margin-bottom: 10px
  	}
  	h4 small, .h4 small, h5 small, .h5 small, h6 small, .h6 small, h4 .small, .h4 .small, h5 .small, .h5 .small, h6 .small, .h6 .small {
- 		font-size: 75%
+ 		font-size: 75%;
  	}
  	h1, .h1 {
- 		font-size: 36px
+ 		font-size: 1.45em;
  	}
  	h2, .h2 {
- 		font-size: 30px
+ 		font-size: 1.35em;
  	}
  	h3, .h3 {
- 		font-size: 24px
+ 		font-size: 1.25em;
  	}
  	h4, .h4 {
- 		font-size: 18px
+ 		font-size: 1.125em;
  	}
  	h5, .h5 {
- 		font-size: 14px
+ 		font-size: 1em;
  	}
  	h6, .h6 {
- 		font-size: 12px
+ 		font-size: .875em;
  	}
  	p {
- 		margin: 0 0 10px
+ 		margin: 0 0 10px;
  	}
  	.lead {
  		margin-bottom: 20px;
- 		font-size: 16px;
+ 		font-size: 1em;
  		font-weight: 300;
- 		line-height: 1.4
+ 		line-height: 1.4;
  	}
  	@media(min-width:768px) {
  		.lead {
- 			font-size: 21px
+ 			font-size: 1.25em;
  		}
  	}
  	small, .small {
@@ -1074,7 +1074,7 @@
  	blockquote {
  		padding: 10px 20px;
  		margin: 0 0 20px;
- 		font-size: 17.5px;
+ 		font-size: 1em;
  		border-left: 5px solid #eee
  	}
  	blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
@@ -1137,7 +1137,7 @@
  		display: block;
  		padding: 9.5px;
  		margin: 0 0 10px;
- 		font-size: 13px;
+ 		font-size: .875em;
  		line-height: 1.42857143;
  		color: #333;
  		word-break: break-all;
@@ -1961,7 +1961,7 @@
  		width: 100%;
  		padding: 0;
  		margin-bottom: 20px;
- 		font-size: 21px;
+ 		font-size: 1.25em;
  		line-height: inherit;
  		color: #333;
  		border: 0;
@@ -2001,7 +2001,7 @@
  	output {
  		display: block;
  		padding-top: 7px;
- 		font-size: 14px;
+ 		font-size: 1em;
  		line-height: 1.42857143;
  		color: #555
  	}
@@ -2010,7 +2010,7 @@
  		width: 100%;
  		height: 34px;
  		padding: 6px 12px;
- 		font-size: 14px;
+ 		font-size: 1em;
  		line-height: 1.42857143;
  		color: #555;
  		background-color: #fff;
@@ -2118,7 +2118,7 @@
  	.input-sm, .form-group-sm .form-control {
  		height: 30px;
  		padding: 5px 10px;
- 		font-size: 12px;
+ 		font-size: .875em;
  		line-height: 1.5;
  		border-radius: 3px
  	}
@@ -2132,7 +2132,7 @@
  	.input-lg, .form-group-lg .form-control {
  		height: 46px;
  		padding: 10px 16px;
- 		font-size: 18px;
+ 		font-size: 1.125em;
  		line-height: 1.33;
  		border-radius: 6px
  	}
@@ -2327,7 +2327,7 @@
  		display: inline-block;
  		padding: 6px 12px;
  		margin-bottom: 0;
- 		font-size: 14px;
+ 		font-size: 1em;
  		font-weight: normal;
  		line-height: 1.42857143;
  		text-align: center;
@@ -2517,19 +2517,19 @@
  	}
  	.btn-lg, .btn-group-lg>.btn {
  		padding: 10px 16px;
- 		font-size: 18px;
+ 		font-size: 1.125em;
  		line-height: 1.33;
  		border-radius: 6px
  	}
  	.btn-sm, .btn-group-sm>.btn {
  		padding: 5px 10px;
- 		font-size: 12px;
+ 		font-size: .875em;
  		line-height: 1.5;
  		border-radius: 3px
  	}
  	.btn-xs, .btn-group-xs>.btn {
  		padding: 1px 5px;
- 		font-size: 12px;
+ 		font-size: .875em;
  		line-height: 1.5;
  		border-radius: 3px
  	}
@@ -2606,7 +2606,7 @@
  		min-width: 160px;
  		padding: 5px 0;
  		margin: 2px 0 0;
- 		font-size: 14px;
+ 		font-size: 1em;
  		text-align: left;
  		list-style: none;
  		background-color: #fff;
@@ -2675,7 +2675,7 @@
  	.dropdown-header {
  		display: block;
  		padding: 3px 20px;
- 		font-size: 12px;
+ 		font-size: .875em;
  		line-height: 1.42857143;
  		color: #777;
  		white-space: nowrap
@@ -2872,7 +2872,7 @@
  	.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
  		height: 46px;
  		padding: 10px 16px;
- 		font-size: 18px;
+ 		font-size: 1.125em;
  		line-height: 1.33;
  		border-radius: 6px
  	}
@@ -2886,7 +2886,7 @@
  	.input-group-sm>.form-control, .input-group-sm>.input-group-addon, .input-group-sm>.input-group-btn>.btn {
  		height: 30px;
  		padding: 5px 10px;
- 		font-size: 12px;
+ 		font-size: .875em;
  		line-height: 1.5;
  		border-radius: 3px
  	}
@@ -2910,7 +2910,7 @@
  	}
  	.input-group-addon {
  		padding: 6px 12px;
- 		font-size: 14px;
+ 		font-size: 1em;
  		font-weight: normal;
  		line-height: 1;
  		color: #555;
@@ -2921,12 +2921,12 @@
  	}
  	.input-group-addon.input-sm {
  		padding: 5px 10px;
- 		font-size: 12px;
+ 		font-size: .875em;
  		border-radius: 3px
  	}
  	.input-group-addon.input-lg {
  		padding: 10px 16px;
- 		font-size: 18px;
+ 		font-size: 1.125em;
  		border-radius: 6px
  	}
  	.input-group-addon input[type="radio"], .input-group-addon input[type="checkbox"] {
@@ -3245,7 +3245,7 @@
  		float: left;
  		height: 50px;
  		padding: 15px 15px;
- 		font-size: 18px;
+ 		font-size: 1.125em;
  		line-height: 20px
  	}
  	.navbar-brand:hover, .navbar-brand:focus {
@@ -3679,7 +3679,7 @@
  	}
  	.pagination-lg>li>a, .pagination-lg>li>span {
  		padding: 10px 16px;
- 		font-size: 18px
+ 		font-size: 1.125em;
  	}
  	.pagination-lg>li:first-child>a, .pagination-lg>li:first-child>span {
  		border-top-left-radius: 6px;
@@ -3691,7 +3691,7 @@
  	}
  	.pagination-sm>li>a, .pagination-sm>li>span {
  		padding: 5px 10px;
- 		font-size: 12px
+ 		font-size: .875em;
  	}
  	.pagination-sm>li:first-child>a, .pagination-sm>li:first-child>span {
  		border-top-left-radius: 3px;
@@ -3796,7 +3796,7 @@
  		display: inline-block;
  		min-width: 10px;
  		padding: 3px 7px;
- 		font-size: 12px;
+ 		font-size: .875em;
  		font-weight: bold;
  		line-height: 1;
  		color: #fff;
@@ -3846,7 +3846,7 @@
  	}
  	.jumbotron p {
  		margin-bottom: 15px;
- 		font-size: 21px;
+ 		font-size: 1.25em;
  		font-weight: 200
  	}
  	.jumbotron>hr {
@@ -3867,7 +3867,7 @@
  			padding-left: 60px
  		}
  		.jumbotron h1, .jumbotron .h1 {
- 			font-size: 63px
+ 			font-size: 2em;
  		}
  	}
  	.thumbnail {
@@ -4002,7 +4002,7 @@
  		float: left;
  		width: 0;
  		height: 100%;
- 		font-size: 12px;
+ 		font-size: .875em;
  		line-height: 20px;
  		color: #fff;
  		text-align: center;
@@ -4249,7 +4249,7 @@
  	.panel-title {
  		margin-top: 0;
  		margin-bottom: 0;
- 		font-size: 16px;
+ 		font-size: 1em;
  		color: inherit
  	}
  	.panel-title>a {
@@ -4521,7 +4521,7 @@
  	}
  	.close {
  		float: right;
- 		font-size: 21px;
+ 		font-size: 1.25em;
  		font-weight: bold;
  		line-height: 1;
  		color: #000;
@@ -4670,7 +4670,7 @@
  		z-index: 1070;
  		display: block;
  		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
- 		font-size: 12px;
+ 		font-size: .875em;
  		font-weight: normal;
  		line-height: 1.4;
  		visibility: visible;
@@ -4778,7 +4778,7 @@
  		max-width: 276px;
  		padding: 1px;
  		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
- 		font-size: 14px;
+ 		font-size: 1em;
  		font-weight: normal;
  		line-height: 1.42857143;
  		text-align: left;
@@ -4807,7 +4807,7 @@
  	.popover-title {
  		padding: 8px 14px;
  		margin: 0;
- 		font-size: 14px;
+ 		font-size: 1em;
  		background-color: #f7f7f7;
  		border-bottom: 1px solid #ebebeb;
  		border-radius: 5px 5px 0 0
@@ -4966,7 +4966,7 @@
  		bottom: 0;
  		left: 0;
  		width: 15%;
- 		font-size: 20px;
+ 		font-size: 1.25em;
  		color: #fff;
  		text-align: center;
  		text-shadow: 0 1px 2px rgba(0,0,0,.6);
@@ -5073,7 +5073,7 @@
  			width: 30px;
  			height: 30px;
  			margin-top: -15px;
- 			font-size: 30px
+ 			font-size: 1.35em;
  		}
  		.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
  			margin-left: -15px

@@ -354,14 +354,14 @@ $_imgW:100%;
         height: 10px;
       }
       .slick-dots li button{
-        font-size: 14px;
+        font-size: 1em;
         line-height: 0;
         width: 10px;
         height: 10px;
       }
       .slick-dots li button:before{
         font-family:inherit;
-        font-size: 14px;
+        font-size: 1em;
         line-height: 10px;
         top: 0;
         left: 0;
@@ -758,7 +758,7 @@ $_imgW:100%;
 				list-style: none;
 				width: 49%;
 				display: inline-block;
-				font-size: 13px;
+				font-size: .875em;
 				float: left;
 				color: #666;
 				position: relative;
@@ -1673,7 +1673,6 @@ span{
 		}
 		span{
 			background:RGBA(0,0,0,.6);
-			font-size:24px;
 			@include border-radius(4px);
 			padding:5px 6px;
 			margin: 0px 10px;

@@ -14,11 +14,10 @@
  		vertical-align: top;
  		a {
  			margin: 10px 0px;
- 			font-size: 16px;
+ 			font-size: 1.25em;
  			color: #333;
  			padding: 3px;
  			display: block;
- 			font-size: 20px;
  			font-weight: bold;
  			border-bottom: 2px solid $_aColor;
  			&:hover,
@@ -36,7 +35,7 @@
  				a {
  					margin-top: 0px;
  					margin-bottom: 0px;
- 					font-size: 16px;
+ 					font-size: 1em;
  					display: block;
  					border-bottom: 1px dotted #ccc;
  					background-color: transparent;

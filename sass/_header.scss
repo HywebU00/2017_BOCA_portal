@@ -220,7 +220,7 @@
 					display: inline-block;
 					line-height:normal;
 					padding:10px 15px;
-					font-size: 15px;
+					font-size: 1em;
 					margin:0px 2.5%;
 					width: 45%;
 					float:left;
@@ -260,7 +260,7 @@
 }
 #Header .FB_Link .FB_BTN a{
 	color:#fff;
-	font-size: 15px;
+	font-size: .938em;
 }
 #Header .FB_Link .FB_BTN a:hover,
 #Header .FB_Link .FB_BTN a:focus{
@@ -282,6 +282,7 @@
 	left: -28px;
 	z-index: 3;
 	margin-right: 5px;
+	font-size: .875rem;
 }
 
 #Header .Search .btn-search{
@@ -303,7 +304,7 @@
 	border-radius:4px;
 }
 #Header .Search i{
-	font-size:18px;
+	font-size:1.125rem;
 	color:#e7341b;
 }
 
@@ -458,7 +459,7 @@
 					box-sizing:border-box;
 					padding: 10px 15% !important;
 					display:block;
-					font-size:15px !important;
+					font-size:.938em !important;
 					border-right: 1px solid #222;
 					border-bottom: 1px solid #222;
 					&:hover,&:focus{

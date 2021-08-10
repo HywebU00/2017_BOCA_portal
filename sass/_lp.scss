@@ -120,6 +120,7 @@
                     list-style-type: decimal;
                     li {
                         margin: 0 0 10px;
+                        word-break: break-all;
                     }
                 }
                 em {
